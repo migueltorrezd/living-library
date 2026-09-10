@@ -1,0 +1,248 @@
+[
+  {
+    "slug": "meditations",
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "dimensionsMm": [
+      113,
+      174,
+      36
+    ],
+    "dimensionNote": "Published external dimensions",
+    "isbn": "9780141395869",
+    "binding": "Printed cloth hardcover",
+    "publisher": "Penguin Pocket Hardbacks",
+    "sourceUrl": "https://www.penguin.co.uk/books/35489/meditations-by-aurelius-marcus/9780141395869",
+    "coverUrl": "https://images.penguinrandomhouse.com/cover/tif/9780141395869",
+    "modelSha256": "1d9ef1924f3a389a0966fb6d0d98297f451d18ed2f13bff40c78dfc0265527ee"
+  },
+  {
+    "slug": "zarathustra",
+    "title": "Thus Spoke Zarathustra",
+    "author": "Friedrich Nietzsche",
+    "dimensionsMm": [
+      119.1,
+      184.2,
+      27
+    ],
+    "dimensionNote": "Published height and width; modeled spine depth",
+    "isbn": "9780679601753",
+    "binding": "Hardcover with printed jacket",
+    "publisher": "Modern Library",
+    "sourceUrl": "https://www.penguinrandomhouse.com/books/121945/thus-spoke-zarathustra-by-friedrich-nietzsche/",
+    "coverUrl": "https://images.penguinrandomhouse.com/cover/tif/9780679601753",
+    "modelSha256": "9862e0753160a8f68b2a83146c96256234097dace48341ac1f8d88f78b341b04"
+  },
+  {
+    "slug": "art-of-war",
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "dimensionsMm": [
+      123.8,
+      203.2,
+      25.4
+    ],
+    "dimensionNote": "Published height and width; modeled spine depth",
+    "isbn": "9781101908006",
+    "binding": "Hardcover with printed jacket",
+    "publisher": "Everyman’s Library",
+    "sourceUrl": "https://www.penguinrandomhouse.com/books/600221/the-art-of-war-by-sun-tzu-translated-and-introduced-by-peter-harris/",
+    "coverUrl": "https://images.penguinrandomhouse.com/cover/tif/9781101908006",
+    "modelSha256": "00f5391749f76ac63ad5695018c649486f5955f98bddd105fe126375e2ee8a49"
+  },
+  {
+    "slug": "origin-of-species",
+    "title": "On the Origin of Species",
+    "author": "Charles Darwin",
+    "dimensionsMm": [
+      129,
+      198,
+      27
+    ],
+    "dimensionNote": "Published external dimensions",
+    "isbn": "9780140439120",
+    "binding": "Paperback",
+    "publisher": "Penguin Classics",
+    "sourceUrl": "https://www.penguin.co.uk/books/34590/on-the-origin-of-species-by-charles-darwin-ed--william-bynum-intro--william-bynum/9780140439120",
+    "coverUrl": "https://images.penguinrandomhouse.com/cover/tif/9780140439120",
+    "modelSha256": "b259973acda2ab24a787d4c9c659dc770f2ffd70d2f37f92d88d2361f43dbc39"
+  },
+  {
+    "slug": "wealth-of-nations",
+    "title": "The Wealth of Nations",
+    "author": "Adam Smith",
+    "dimensionsMm": [
+      127,
+      203.2,
+      35
+    ],
+    "dimensionNote": "Published height and width; modeled spine depth",
+    "isbn": "9780679405641",
+    "binding": "Hardcover with printed jacket",
+    "publisher": "Everyman’s Library",
+    "sourceUrl": "https://www.penguinrandomhouse.com/books/672381/the-wealth-of-nations-by-adam-smith-introduction-by-d-d-raphael-and-john-bayley/",
+    "coverUrl": "https://images.penguinrandomhouse.com/cover/tif/9780679405641",
+    "modelSha256": "589662f8b662cd6aaa4940c90122eb999ed114482387530ffaeb25254e74c34c"
+  },
+  {
+    "slug": "the-republic",
+    "title": "The Republic",
+    "author": "Plato",
+    "dimensionsMm": [
+      127,
+      203.2,
+      29
+    ],
+    "dimensionNote": "Published height and width; modeled spine depth",
+    "isbn": "9780679413301",
+    "binding": "Hardcover with printed jacket",
+    "publisher": "Everyman’s Library",
+    "sourceUrl": "https://www.penguinrandomhouse.com/books/131794/the-republic-by-plato-translated-by-ad-lindsay-introduction-by-alexander-nehamas/",
+    "coverUrl": "https://images.penguinrandomhouse.com/cover/tif/9780679413301",
+    "modelSha256": "63da6a2720d4e25f4415219cdeddc2dfae6012651b0f004ddb1297b171cfeb52"
+  },
+  {
+    "slug": "naval",
+    "title": "The Almanack of Naval Ravikant",
+    "author": "Eric Jorgenson",
+    "dimensionsMm": [
+      139.7,
+      212.7,
+      30.5
+    ],
+    "dimensionNote": "Measurements correspond to the selected print edition",
+    "isbn": "9798893310948",
+    "binding": "Hardcover",
+    "publisher": "Authors Equity",
+    "sourceUrl": "https://www.simonandschuster.com/books/The-Almanack-of-Naval-Ravikant/Eric-Jorgenson/9798893310948",
+    "coverUrl": "https://m.media-amazon.com/images/I/61ptYzpPOsL._SL1500_.jpg",
+    "coverSize": [
+      973,
+      1500
+    ],
+    "artworkNote": "Original artwork, colour-space and file-format conversion only",
+    "modelSha256": "cd42c04eac8a67b90bd7c4e34ea317d35117d24ff5c22c4fa6cd78127ff58431"
+  },
+  {
+    "slug": "the-book-of-elon",
+    "title": "The Book of Elon",
+    "author": "Eric Jorgenson",
+    "dimensionsMm": [
+      139.7,
+      215.9,
+      25.4
+    ],
+    "dimensionNote": "Matching front of the red edition; hardcover dimensions from Target 9781544550756. Back and spine reconstructed",
+    "isbn": "9781544550756",
+    "binding": "Hardcover",
+    "publisher": "Magrathea",
+    "sourceUrl": "https://www.elonmuskbook.org/",
+    "coverUrl": "https://images-us.bookshop.org/ingram/9781544550756.jpg?v=b32120b1b6cf7c497713ced6f7e908eb",
+    "coverSize": [
+      814,
+      1200
+    ],
+    "artworkNote": "Unmodified original artwork; native resolution, no padding or enlargement",
+    "modelSha256": "47633928a77c274ee56f3e7342964816e6f0bd7d06343d14a38cf7b1e4b4ab5f"
+  },
+  {
+    "slug": "how-to-fail",
+    "title": "How to Fail at Almost Everything and Still Win Big",
+    "author": "Scott Adams",
+    "dimensionsMm": [
+      140,
+      216,
+      17
+    ],
+    "dimensionNote": "Measurements correspond to the selected print edition",
+    "isbn": "9798988534945",
+    "binding": "Paperback",
+    "publisher": "Scott Adams, Inc.",
+    "sourceUrl": "https://www.libristo.eu/en/book/how-to-fail-at-almost-everything-and-still-win-big-kind-of-the-story-of-my-life_44117165",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/f2/8a/b3/f28ab3ec-f1be-20b0-5079-ac93393e2ea6/0001125990.jpg/2400x2400bb.jpg",
+    "coverSize": [
+      1400,
+      2240
+    ],
+    "artworkNote": "Original artwork, colour-space and file-format conversion only",
+    "modelSha256": "9346da65669d9f28dfee306d3b8fb167404e69db082ec525e157e395c59452a7"
+  },
+  {
+    "slug": "walden",
+    "title": "Walden",
+    "author": "Henry David Thoreau",
+    "dimensionsMm": [
+      152.4,
+      228.6,
+      25
+    ],
+    "dimensionNote": "Published height and width; modeled spine depth",
+    "isbn": "9780807024102",
+    "binding": "Hardcover with printed jacket",
+    "publisher": "Beacon Press",
+    "sourceUrl": "https://www.penguinrandomhouse.com/books/643638/walden-by-henry-david-thoreau/hardcover/",
+    "coverUrl": "https://images.penguinrandomhouse.com/cover/tif/9780807024102",
+    "modelSha256": "26456c4d07ccac83096fb2a481b41ff389241ab4447bbe4392dbc4d462e4afbd"
+  },
+  {
+    "slug": "le-petit-prince",
+    "title": "Le Petit Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "dimensionsMm": [
+      160,
+      230,
+      11
+    ],
+    "dimensionNote": "70th-anniversary package artwork on a reconstructed book; 160 × 230 mm format, modeled 11 mm book depth. CD/DVD packaging is not included",
+    "isbn": "9782070653119",
+    "binding": "Hardcover",
+    "publisher": "Gallimard Jeunesse",
+    "sourceUrl": "https://www.cercle-enseignement.com/Ouvrages/Gallimard-Jeunesse/Hors-Serie-Musique/Le-Petit-Prince",
+    "coverUrl": "https://media.groupe.gallimard.fr/couvHD/A65311.jpg",
+    "coverSize": [
+      1299,
+      1763
+    ],
+    "artworkNote": "Original artwork, colour-space and file-format conversion only",
+    "modelSha256": "0c594ea9a3077a9c814cceef4f176de876b41027fde21ed3d81bcdbedc4a4276"
+  },
+  {
+    "slug": "cien-anos-de-soledad",
+    "title": "Cien años de soledad",
+    "author": "Gabriel García Márquez",
+    "dimensionsMm": [
+      175,
+      228,
+      32
+    ],
+    "dimensionNote": "Anniversary artwork matches Vintage Español 9780525562443; dimensions from Libristo. Rough woven cover finish follows the user’s physical-copy description; the listed edition is paperback",
+    "isbn": "9780525562443",
+    "binding": "Paperback",
+    "publisher": "Vintage Español",
+    "sourceUrl": "https://www.penguinrandomhouse.com/books/196323/cien-anos-de-soledad-50-aniversario--one-hundred-years-of-solitude-by-gabriel-garcia-marquez/9780525562443/",
+    "coverUrl": "https://images.penguinrandomhouse.com/cover/tif/9780525562443",
+    "coverSize": [
+      2000,
+      2731
+    ],
+    "artworkNote": "Original artwork, colour-space and file-format conversion only",
+    "modelSha256": "dee446e6ae6adf7fe2a0eeabfeec75054e0b646c84aafa1cd4da2fe83823649c"
+  },
+  {
+    "slug": "principia",
+    "title": "Principia",
+    "author": "Isaac Newton",
+    "dimensionsMm": [
+      177.8,
+      254,
+      37
+    ],
+    "dimensionNote": "Published height and width; modeled spine depth",
+    "isbn": "9780520290747",
+    "binding": "Paperback",
+    "publisher": "University of California Press",
+    "sourceUrl": "https://www.ucpress.edu/books/the-principia-the-authoritative-translation/paper",
+    "coverUrl": "https://webfiles.ucpress.edu/coverimage/isbn13/9780520290747.jpg",
+    "modelSha256": "716e058e2e953161cf28e22a8e3cb1561228a085c95c10b1d80c68ffda2693fb"
+  }
+]

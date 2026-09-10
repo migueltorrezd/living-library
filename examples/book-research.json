@@ -1,0 +1,34 @@
+{
+  "slug": "your-book",
+  "title": "Exact edition title",
+  "author": "Author name",
+  "isbn": null,
+  "language": null,
+  "publisher": null,
+  "binding": null,
+  "publicationDate": null,
+  "pageCount": null,
+  "dimensionsMm": [
+    null,
+    null,
+    null
+  ],
+  "dimensionSources": {
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  "dimensionNote": "Width, height, depth. Identify estimates and packaging dimensions.",
+  "editionSourceUrl": null,
+  "assets": {
+    "front": null,
+    "spine": null,
+    "back": null,
+    "substrate": []
+  },
+  "reconstructedFaces": [],
+  "purchaseLinks": [],
+  "readingSource": null,
+  "rightsNotes": [],
+  "verifiedAt": null
+}

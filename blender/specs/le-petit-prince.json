@@ -1,0 +1,28 @@
+{
+  "slug": "le-petit-prince",
+  "width": 1.6,
+  "height": 2.3,
+  "depth": 0.089,
+  "dimensionsMm": [
+    160,
+    230,
+    11
+  ],
+  "dimensionNote": "70th-anniversary package artwork on a reconstructed book; 160 × 230 mm format, modeled 11 mm book depth. CD/DVD packaging is not included",
+  "isbn": "9782070653119",
+  "publisher": "Gallimard Jeunesse",
+  "modeledPages": 94,
+  "boardMm": 2.1,
+  "binding": "Hardcover",
+  "modelSha256": "0c594ea9a3077a9c814cceef4f176de876b41027fde21ed3d81bcdbedc4a4276",
+  "libraryModelUrl": "/models/optimized/le-petit-prince-library.gltf",
+  "librarySha256": "1dbdf01ad169c1a84e3de7a0766fa1ecd0f11e83b1be7c9aaeb3de86c417a31a",
+  "runtimeModelUrl": "/models/optimized/le-petit-prince.gltf",
+  "runtimeSha256": "85c9c58b66d2b05f9b78f8a72f83aec05feac3f707a7ac018da9169a54a2feb4",
+  "shelfModelUrl": "/models/optimized/le-petit-prince-shelf.gltf",
+  "shelfSha256": "118d94341b089ec94f65c6b9a3af2669ca85bf08cf4e7d10fd8c674c47f6f703",
+  "sourceUrl": "https://www.cercle-enseignement.com/Ouvrages/Gallimard-Jeunesse/Hors-Serie-Musique/Le-Petit-Prince",
+  "coverUrl": "https://media.groupe.gallimard.fr/couvHD/A65311.jpg",
+  "cover": "/covers/edition-le-petit-prince.png",
+  "paperGapMm": 0.8
+}

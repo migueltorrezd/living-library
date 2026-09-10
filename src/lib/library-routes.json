@@ -1,0 +1,8 @@
+{
+  "en": {"projects":"projects","library":"library","books":"books"},
+  "fr": {"projects":"projets","library":"bibliotheque","books":"livres"},
+  "es": {"projects":"proyectos","library":"biblioteca","books":"libros"},
+  "pt": {"projects":"projetos","library":"biblioteca","books":"livros"},
+  "it": {"projects":"progetti","library":"biblioteca","books":"libri"},
+  "de": {"projects":"projekte","library":"bibliothek","books":"buecher"}
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "wealth-of-nations",
+  "width": 1.27,
+  "height": 2.032,
+  "depth": 0.329,
+  "dimensionsMm": [
+    127,
+    203.2,
+    35
+  ],
+  "dimensionNote": "Published height and width; modeled spine depth",
+  "isbn": "9780679405641",
+  "publisher": "Everyman’s Library",
+  "modeledPages": 624,
+  "boardMm": 2.1,
+  "binding": "Hardcover with printed jacket",
+  "modelSha256": "589662f8b662cd6aaa4940c90122eb999ed114482387530ffaeb25254e74c34c",
+  "libraryModelUrl": "/models/optimized/wealth-of-nations-library.gltf",
+  "librarySha256": "48aef4f729adaa5165040229df21e45414ee652141f06517f1749716a521985d",
+  "runtimeModelUrl": "/models/optimized/wealth-of-nations.gltf",
+  "runtimeSha256": "7ef8635447f10bb5f3c89011c064d49e161942eab720ecd750679fcc35d4b4df",
+  "shelfModelUrl": "/models/optimized/wealth-of-nations-shelf.gltf",
+  "shelfSha256": "cb01abd1421ec9271fe5817d0f53e9336a3b6e149952f8bb41b32c5107bd6e10",
+  "sourceUrl": "https://www.penguinrandomhouse.com/books/672381/the-wealth-of-nations-by-adam-smith-introduction-by-d-d-raphael-and-john-bayley/",
+  "coverUrl": "https://images.penguinrandomhouse.com/cover/tif/9780679405641",
+  "cover": "/covers/edition-wealth-of-nations.jpg",
+  "paperGapMm": 1.1
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "zarathustra",
+  "width": 1.1909999999999998,
+  "height": 1.8419999999999999,
+  "depth": 0.249,
+  "dimensionsMm": [
+    119.1,
+    184.2,
+    27
+  ],
+  "dimensionNote": "Published height and width; modeled spine depth",
+  "isbn": "9780679601753",
+  "publisher": "Modern Library",
+  "modeledPages": 368,
+  "boardMm": 2.1,
+  "binding": "Hardcover with printed jacket",
+  "modelSha256": "9862e0753160a8f68b2a83146c96256234097dace48341ac1f8d88f78b341b04",
+  "libraryModelUrl": "/models/optimized/zarathustra-library.gltf",
+  "librarySha256": "978ffae92047e04116c6409445cf6ab61faa4854e073040aeae3697e67ede7ec",
+  "runtimeModelUrl": "/models/optimized/zarathustra.gltf",
+  "runtimeSha256": "36afb5518afac4564632b54c0472cdbaa4c48a134487b8495b6d017b2c986733",
+  "shelfModelUrl": "/models/optimized/zarathustra-shelf.gltf",
+  "shelfSha256": "b8226d755aa97a37f71d16e585283b76bf33f9c0b7b8b6462b29c6dd20389e6e",
+  "sourceUrl": "https://www.penguinrandomhouse.com/books/121945/thus-spoke-zarathustra-by-friedrich-nietzsche/",
+  "coverUrl": "https://images.penguinrandomhouse.com/cover/tif/9780679601753",
+  "cover": "/covers/edition-zarathustra.jpg",
+  "paperGapMm": 1.1
+}

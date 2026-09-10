@@ -1,0 +1,28 @@
+{
+  "slug": "origin-of-species",
+  "width": 1.29,
+  "height": 1.98,
+  "depth": 0.265,
+  "dimensionsMm": [
+    129,
+    198,
+    27
+  ],
+  "dimensionNote": "Published external dimensions",
+  "isbn": "9780140439120",
+  "publisher": "Penguin Classics",
+  "modeledPages": 576,
+  "boardMm": 0.5,
+  "binding": "Paperback",
+  "modelSha256": "b259973acda2ab24a787d4c9c659dc770f2ffd70d2f37f92d88d2361f43dbc39",
+  "libraryModelUrl": "/models/optimized/origin-of-species-library.gltf",
+  "librarySha256": "a86d38299efde1e0fa0cb900cc6df5c9e4eb4e8d523b430fbb0bb51678514331",
+  "runtimeModelUrl": "/models/optimized/origin-of-species.gltf",
+  "runtimeSha256": "4b0ff32eb42118243ce1aa489c4ade4371303b72f6e5728cf1c661980ce9e615",
+  "shelfModelUrl": "/models/optimized/origin-of-species-shelf.gltf",
+  "shelfSha256": "e01d2afb831c0af051e546ee2156d0a534fd2b21d6fa9c3c4d6633e6394210b5",
+  "sourceUrl": "https://www.penguin.co.uk/books/34590/on-the-origin-of-species-by-charles-darwin-ed--william-bynum-intro--william-bynum/9780140439120",
+  "coverUrl": "https://images.penguinrandomhouse.com/cover/tif/9780140439120",
+  "cover": "/covers/edition-origin-of-species.jpg",
+  "paperGapMm": 1.1
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "meditations",
+  "width": 1.13,
+  "height": 1.74,
+  "depth": 0.339,
+  "dimensionsMm": [
+    113,
+    174,
+    36
+  ],
+  "dimensionNote": "Published external dimensions",
+  "isbn": "9780141395869",
+  "publisher": "Penguin Pocket Hardbacks",
+  "modeledPages": 416,
+  "boardMm": 2.1,
+  "binding": "Printed cloth hardcover",
+  "modelSha256": "1d9ef1924f3a389a0966fb6d0d98297f451d18ed2f13bff40c78dfc0265527ee",
+  "libraryModelUrl": "/models/optimized/meditations-library.gltf",
+  "librarySha256": "b0d7e8dbdc482552f9fe7e0a1d7b5f5c43918e53c05096e1fe6fc2ac04fa37e1",
+  "runtimeModelUrl": "/models/optimized/meditations.gltf",
+  "runtimeSha256": "b28e031b511483cc61f6d6f7770c613c19a662d4a548c3a356ed20e5fcd8ea29",
+  "shelfModelUrl": "/models/optimized/meditations-shelf.gltf",
+  "shelfSha256": "1ee03f828632ab1c7b42ac8def350a3a198b15562fb7ddf314c598b8d8ce243a",
+  "sourceUrl": "https://www.penguin.co.uk/books/35489/meditations-by-aurelius-marcus/9780141395869",
+  "coverUrl": "https://images.penguinrandomhouse.com/cover/tif/9780141395869",
+  "cover": "/covers/edition-meditations.jpg",
+  "paperGapMm": 1.1
+}

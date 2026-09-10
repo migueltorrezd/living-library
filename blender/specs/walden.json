@@ -1,0 +1,28 @@
+{
+  "slug": "walden",
+  "width": 1.524,
+  "height": 2.286,
+  "depth": 0.229,
+  "dimensionsMm": [
+    152.4,
+    228.6,
+    25
+  ],
+  "dimensionNote": "Published height and width; modeled spine depth",
+  "isbn": "9780807024102",
+  "publisher": "Beacon Press",
+  "modeledPages": 288,
+  "boardMm": 2.1,
+  "binding": "Hardcover with printed jacket",
+  "modelSha256": "26456c4d07ccac83096fb2a481b41ff389241ab4447bbe4392dbc4d462e4afbd",
+  "libraryModelUrl": "/models/optimized/walden-library.gltf",
+  "librarySha256": "b5bb8f5502a1bc653c3313df2a3b132e0210b6580c53558505439f39840c0171",
+  "runtimeModelUrl": "/models/optimized/walden.gltf",
+  "runtimeSha256": "4f018340801d42f636ae2f72cfe5d46cf22fa360b5437994513059b8a5d8cc8e",
+  "shelfModelUrl": "/models/optimized/walden-shelf.gltf",
+  "shelfSha256": "1b60a56282175a257cf625110b4cbfbeca118d1971475c7fd22054d2e54c954c",
+  "sourceUrl": "https://www.penguinrandomhouse.com/books/643638/walden-by-henry-david-thoreau/hardcover/",
+  "coverUrl": "https://images.penguinrandomhouse.com/cover/tif/9780807024102",
+  "cover": "/covers/edition-walden.jpg",
+  "paperGapMm": 1.1
+}

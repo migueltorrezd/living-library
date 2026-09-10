@@ -1,0 +1,28 @@
+{
+  "slug": "art-of-war",
+  "width": 1.238,
+  "height": 2.032,
+  "depth": 0.233,
+  "dimensionsMm": [
+    123.8,
+    203.2,
+    25.4
+  ],
+  "dimensionNote": "Published height and width; modeled spine depth",
+  "isbn": "9781101908006",
+  "publisher": "Everyman’s Library",
+  "modeledPages": 312,
+  "boardMm": 2.1,
+  "binding": "Hardcover with printed jacket",
+  "modelSha256": "00f5391749f76ac63ad5695018c649486f5955f98bddd105fe126375e2ee8a49",
+  "libraryModelUrl": "/models/optimized/art-of-war-library.gltf",
+  "librarySha256": "3456a11c16f04d53cd8840677a0b91f66ad688d922c32b647726306c2803e15a",
+  "runtimeModelUrl": "/models/optimized/art-of-war.gltf",
+  "runtimeSha256": "58af8b262ef0792aac8d0910a46d1c5cabde8268a747e8fc99444386175561e2",
+  "shelfModelUrl": "/models/optimized/art-of-war-shelf.gltf",
+  "shelfSha256": "94835bb3761d05ff1ca25d9acd945f47b51d8b3bfa15db36d17ad22589c58e63",
+  "sourceUrl": "https://www.penguinrandomhouse.com/books/600221/the-art-of-war-by-sun-tzu-translated-and-introduced-by-peter-harris/",
+  "coverUrl": "https://images.penguinrandomhouse.com/cover/tif/9781101908006",
+  "cover": "/covers/edition-art-of-war.jpg",
+  "paperGapMm": 1.1
+}

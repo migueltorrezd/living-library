@@ -1,0 +1,11 @@
+{
+  "name": "Living Library",
+  "tagline": "Ideas worth keeping close.",
+  "description": "A collection of ideas to explore, with beautifully bound books you can pick up, turn, and open.",
+  "footer": "A library to wander through.",
+  "returnUrl": "",
+  "returnLabel": "Back to the website",
+  "loadingTheme": "warm",
+  "navalPdfUrl": "",
+  "websiteLocales": false
+}

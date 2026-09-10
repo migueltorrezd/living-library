@@ -1,0 +1,49 @@
+{
+  "name": "living-library",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "node scripts/prepare_pdf_worker.mjs",
+    "predev": "node scripts/prepare_pdf_worker.mjs",
+    "prebuild": "node scripts/prepare_pdf_worker.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "verify:assets": "node scripts/verify-package.mjs",
+    "doctor": "node scripts/doctor.mjs",
+    "verify:blender": "node scripts/verify-blender.mjs",
+    "research:book": "node scripts/research-book.mjs",
+    "fetch:asset": "node scripts/fetch-asset.mjs",
+    "pack:book": "node scripts/pack-book.mjs",
+    "refresh:manifest": "node scripts/refresh-manifest.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
+    "maath": "^0.10.8",
+    "next": "^16.3.4",
+    "pdfjs-dist": "6.3.289",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "three": "^0.185.1",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "4.5.0",
+    "@gltf-transform/extensions": "4.5.0",
+    "@gltf-transform/functions": "4.5.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/three": "^0.185.0",
+    "eslint": "^9",
+    "eslint-config-next": "^16.3.4",
+    "typescript": "^5.7.0",
+    "sharp": "0.35.4",
+    "meshoptimizer": "1.1.1"
+  },
+  "engines": {
+    "node": ">=22.0.0 <25"
+  }
+}

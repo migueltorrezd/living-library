@@ -1,0 +1,1416 @@
+{
+  "format": 1,
+  "edition": "public",
+  "slugs": [
+    "meditations",
+    "zarathustra",
+    "art-of-war",
+    "origin-of-species",
+    "wealth-of-nations",
+    "the-republic",
+    "naval",
+    "the-book-of-elon",
+    "how-to-fail",
+    "walden",
+    "le-petit-prince",
+    "cien-anos-de-soledad",
+    "principia"
+  ],
+  "files": [
+    {
+      "path": ".agents/skills/library-books/SKILL.md",
+      "bytes": 1170,
+      "sha256": "7e905613807493c1cf90074f21d6869955b60fb297810dc02810557c688c5f67"
+    },
+    {
+      "path": ".env.example",
+      "bytes": 104,
+      "sha256": "81e61765e3758aa25f8ce16e89b11704da7ff05a717c699bc66d03bb7ab7980a"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 94,
+      "sha256": "fae2e04402296cde3bc0bdd318d35347aa06a65a16b1ffc9c2c4c89fda2fdcb8"
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "bytes": 442,
+      "sha256": "3a862ef3fa813233bfe682348299aa81bac933f984f60563990847eaae5df51d"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 128,
+      "sha256": "02b21d1affd56d229038842a745337df2d5c25e3a9bce5d71b74cf973f9de9f5"
+    },
+    {
+      "path": ".nvmrc",
+      "bytes": 3,
+      "sha256": "68ca3fba3b7e864770cb61aeb306d4bd4354b68ab4dd38450860c5d823e42a53"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 2555,
+      "sha256": "8603140e18dbb72dc647a3153905c24651d886cc00f61280ca3f697dbe470eb7"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 202,
+      "sha256": "00d581797693a3473e4386d33c63c2d4e5e87d8c1b99807555b5d2a1c5cb8e16"
+    },
+    {
+      "path": "COLLECTION.json",
+      "bytes": 9330,
+      "sha256": "a8fb310531bdb2ad6fc01b10b69d183bae339ab193257888cdc13282657cecf4"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 997,
+      "sha256": "15912d56a5de471c8bfc297ba499a86b4ba4b7b66067088e236f988f570be147"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1446,
+      "sha256": "90cdfa876d7fbca5d8b836408932a41073714baa59f094d618d7a83f5e77f2f5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4676,
+      "sha256": "fc96a7aa56ecd45db868adaa7d83adaac1d05c9188512334dfb68b399bb73c59"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 753,
+      "sha256": "48ef04952b376b69acf20a74c5f7835b05c24b0543abd7f6cabdc71c1c96e537"
+    },
+    {
+      "path": "blender/books/art-of-war.blend",
+      "bytes": 18769877,
+      "sha256": "b0923cc289c1f11b8fb511cddbc7fec280095ac7c2f2031ce1f0be63b3d9c2b3"
+    },
+    {
+      "path": "blender/books/cien-anos-de-soledad.blend",
+      "bytes": 29276174,
+      "sha256": "6c149c0e82d90b185ec3bd634683adbdfb45dd40941c30f4a451d048a933aa2e"
+    },
+    {
+      "path": "blender/books/how-to-fail.blend",
+      "bytes": 19860772,
+      "sha256": "67501550ec707c3789cb7c0ad28186db9d3cf0f5ab1a80ecac63cfd7125c80b7"
+    },
+    {
+      "path": "blender/books/le-petit-prince.blend",
+      "bytes": 19635039,
+      "sha256": "d304c3c871d21af56f2c489c4ff3d4957dd456861b4dc229ae943335fce91ed3"
+    },
+    {
+      "path": "blender/books/meditations.blend",
+      "bytes": 21136333,
+      "sha256": "257f04f6b70089d3731bfda1755d4a61262752d52720959b35af45691a8bc541"
+    },
+    {
+      "path": "blender/books/naval.blend",
+      "bytes": 15819609,
+      "sha256": "342360de6492c20a345acdbb3b656506a605e4130de11e1a8e2f6af6feeb1bb4"
+    },
+    {
+      "path": "blender/books/origin-of-species.blend",
+      "bytes": 17054298,
+      "sha256": "7efb2fa53702f69ca411673c5f4b364167ed43ff6efcce214eace10fd54a8fc2"
+    },
+    {
+      "path": "blender/books/principia.blend",
+      "bytes": 13560759,
+      "sha256": "55c703e0badee9bd4a8bb0307520f4a4284f2fe770f30a7d535916fd0cf7990c"
+    },
+    {
+      "path": "blender/books/the-book-of-elon.blend",
+      "bytes": 14440792,
+      "sha256": "f70bfaaa5cf40ef26e47616bc0ad49692c7abcd611432241ace7607be65e5227"
+    },
+    {
+      "path": "blender/books/the-republic.blend",
+      "bytes": 15656252,
+      "sha256": "5c4415a1d3e83cb45369607b8c32cdfa527573763f7954b8c16576e3228b8766"
+    },
+    {
+      "path": "blender/books/walden.blend",
+      "bytes": 16269962,
+      "sha256": "9ecc95b2d6245a0c4a35ce268eabfc1c36d3f7501197d2946742e8e9c8d1e062"
+    },
+    {
+      "path": "blender/books/wealth-of-nations.blend",
+      "bytes": 16216096,
+      "sha256": "fab3dd9d181942179a29f367b23138c728b9d9b6668d109793254623212966dd"
+    },
+    {
+      "path": "blender/books/zarathustra.blend",
+      "bytes": 20131412,
+      "sha256": "b353a89abb950499f49988d31605f7cca02424e9e7c703927784b1c48824b9a9"
+    },
+    {
+      "path": "blender/specs/art-of-war.json",
+      "bytes": 1171,
+      "sha256": "339fdc18ccc42848709453d02ac68e2d97026d1544e6ff8f49564efcb82de142"
+    },
+    {
+      "path": "blender/specs/cien-anos-de-soledad.json",
+      "bytes": 1372,
+      "sha256": "0fac1d590e25346da8cb84cca835c5f2216e37afc8a2432c8b5375ddc30ee57d"
+    },
+    {
+      "path": "blender/specs/how-to-fail.json",
+      "bytes": 1229,
+      "sha256": "ab4a88f52cc23639fe00c5b3b1b59f4764c606dd5ae3358e768fbe8b97567941"
+    },
+    {
+      "path": "blender/specs/le-petit-prince.json",
+      "bytes": 1226,
+      "sha256": "962a2ad227d13f772e5e63eab6340947599a378c1a9c6642ca1049a6cbf363f0"
+    },
+    {
+      "path": "blender/specs/meditations.json",
+      "bytes": 1114,
+      "sha256": "df9b9341a24358fd54355ded9bf3f5dd11d6a92c0d5b9f4f950d6b91d6538af6"
+    },
+    {
+      "path": "blender/specs/naval.json",
+      "bytes": 1120,
+      "sha256": "8378e0ffe67641fa964265e66cf3168a6ddbca26e90d2b131a49069584e43f85"
+    },
+    {
+      "path": "blender/specs/origin-of-species.json",
+      "bytes": 1173,
+      "sha256": "a07505a13234e4f26c6a0d7a67a702ddbce268b0ca7fc49811f73a7e768c4c25"
+    },
+    {
+      "path": "blender/specs/principia.json",
+      "bytes": 1117,
+      "sha256": "3c9f84f05592f1f1faa7942235548025d84ab50ba901514d3adaae4be7766497"
+    },
+    {
+      "path": "blender/specs/the-book-of-elon.json",
+      "bytes": 1208,
+      "sha256": "5d18fd288a57d2046973a31076fe5bfd39fc687f7a829a22257a250c33b766d2"
+    },
+    {
+      "path": "blender/specs/the-republic.json",
+      "bytes": 1189,
+      "sha256": "24c4d203a064644a297dd587b3c8d17d6eeb1410661a71ac14f967ad5bf17ca9"
+    },
+    {
+      "path": "blender/specs/walden.json",
+      "bytes": 1113,
+      "sha256": "e5bc1fc7a113cbf8663cb9fc0aa4f62281ef466393eb03bcc79a6b6dea5624c1"
+    },
+    {
+      "path": "blender/specs/wealth-of-nations.json",
+      "bytes": 1213,
+      "sha256": "0b80c146f4f9ff9d63d97b0f81fb7154852cfda3c3de920b3e2e22711027747f"
+    },
+    {
+      "path": "blender/specs/zarathustra.json",
+      "bytes": 1172,
+      "sha256": "ff9b004310dd518af6034f5dc6c91247d0a27f7e4a81668837e05fd8f7919d07"
+    },
+    {
+      "path": "blender/tools/export_book.py",
+      "bytes": 1824,
+      "sha256": "495c0d23d1e501f50817d50c1d2bfcd03d7e26c3dbaf085d85a938c0b50efcb9"
+    },
+    {
+      "path": "blender/tools/inspect_book.py",
+      "bytes": 2126,
+      "sha256": "6ad5d4886ce65c0238b55a9bfb8bda43db2eb805599f6ac7eabb799bed6a5946"
+    },
+    {
+      "path": "docs/authoring/agent-workflow.md",
+      "bytes": 7969,
+      "sha256": "417debe7555de06c1e827fd4181a7a33f715a1bc8518025e3068f9eda045bf8c"
+    },
+    {
+      "path": "docs/authoring/blender-setup.md",
+      "bytes": 4964,
+      "sha256": "a6e8ecd08346a3630aa833ae0865dc47fc93fecfedac833dbf54dedaf861ca21"
+    },
+    {
+      "path": "docs/authoring/export-and-register.md",
+      "bytes": 4947,
+      "sha256": "9f6b2382b6fdad0e91aaa26c63a0b86335e34dc1f3f34c5043a0a18a8df2f4d4"
+    },
+    {
+      "path": "docs/images/library-desktop.png",
+      "bytes": 325127,
+      "sha256": "a7e86dc043aa40dbbacbd1f704c3cc38ce1fb58b67b655aa998ecfdb81b2a066"
+    },
+    {
+      "path": "docs/images/library-mobile.png",
+      "bytes": 92269,
+      "sha256": "971cfdd3da3383cc97d0ecd027094146c990d6cf135f8996a1384019a32a12e6"
+    },
+    {
+      "path": "docs/standalone/README.md",
+      "bytes": 525,
+      "sha256": "20a7742b005598b2562b6d717d277514a5f348b4d679b0abd8a3ac4bd1d13bea"
+    },
+    {
+      "path": "docs/standalone/architecture.md",
+      "bytes": 2959,
+      "sha256": "6170caf112add4027c82b288d4bee7356d19f7c6253a95c891b729b03237a8bb"
+    },
+    {
+      "path": "docs/standalone/asset-notices.md",
+      "bytes": 2284,
+      "sha256": "5ade651a2db48e3940cb9b0c6b1f3f20631cc53d633dc229fce975de548322af"
+    },
+    {
+      "path": "docs/standalone/books-and-assets.md",
+      "bytes": 2088,
+      "sha256": "19bef83153498d45104c971ba2ec08da01a9fd323f9a40f4d4d22fd6ba6b2ac3"
+    },
+    {
+      "path": "docs/standalone/deployment.md",
+      "bytes": 2333,
+      "sha256": "cf3f79ac87b4e3212a2e55507a33c6dcecd1cf30278e27421b7bb155428b084b"
+    },
+    {
+      "path": "docs/standalone/lighting-and-materials.md",
+      "bytes": 1988,
+      "sha256": "54679eaa30dd384c903775919187acd3ea922fe3288ba802851384c2d396efc3"
+    },
+    {
+      "path": "docs/standalone/maintaining-editions.md",
+      "bytes": 944,
+      "sha256": "78c84303956f79c984bcbeff60cfa98b62a7c36b760a0f44db8a36f68fab7b58"
+    },
+    {
+      "path": "docs/standalone/performance.md",
+      "bytes": 1818,
+      "sha256": "fe33b2c27db835f451843c7f0d97da0627277d21e2ca8b1f72f56e9560df4577"
+    },
+    {
+      "path": "docs/standalone/physics-and-reading.md",
+      "bytes": 2576,
+      "sha256": "be5ba3cdfca48b7cc1350130f724f9217442b7629e413ea90694c8e081394857"
+    },
+    {
+      "path": "docs/standalone/runbook.md",
+      "bytes": 1982,
+      "sha256": "8383c3abafb679c595c26608726cca9c1d5319c1c26989d22af75ee1a04fd263"
+    },
+    {
+      "path": "docs/verification.md",
+      "bytes": 2803,
+      "sha256": "71b77d66250351a2c3512a92e34248b82a72868b2d93ad8894876b97bf666045"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "bytes": 836,
+      "sha256": "510048771be2471c80b7002fdaeb38f63cc6ee2af3f18675ddbceb0d877a04e8"
+    },
+    {
+      "path": "examples/book-research.json",
+      "bytes": 682,
+      "sha256": "2afb9ffef7d261d5ea3994fc1354915b0fa7e2f076009f4a8ee09c84e2e54d36"
+    },
+    {
+      "path": "examples/mcp/blender.json",
+      "bytes": 300,
+      "sha256": "ed4f64f37a94fd4b7c4bb11d47296bb7192c370247b7d2e2fc12fd113218048d"
+    },
+    {
+      "path": "next.config.ts",
+      "bytes": 400,
+      "sha256": "059b983063f8392d2ceb12afded6e871d76a72ef0cc6db40fc07539c00f0e234"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 252921,
+      "sha256": "09370e24c1250931e008d316dc8828a6b032c0e39f4ee71b77628caf8a39e8fc"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1459,
+      "sha256": "34f607d813bf865faf99ff47274ef059b9aa5a9e0cbceacf7408f31b1908e24f"
+    },
+    {
+      "path": "public/covers/edition-art-of-war.jpg",
+      "bytes": 1093941,
+      "sha256": "58628b4f7f23b2c5f4089b4c3dc3b8661eb895e426deca67e68b3776077c7c5d"
+    },
+    {
+      "path": "public/covers/edition-cien-anos-de-soledad.png",
+      "bytes": 10596669,
+      "sha256": "537763135269722adc872e5f292012980153304043c0ad519d04afe1415e2c0d"
+    },
+    {
+      "path": "public/covers/edition-how-to-fail.png",
+      "bytes": 1866555,
+      "sha256": "ebc3b3c9fb8a8b646fd122517800fcc1f46f7ba4c4a7610ca4249ab10d7e5a77"
+    },
+    {
+      "path": "public/covers/edition-le-petit-prince.png",
+      "bytes": 1742211,
+      "sha256": "ac81ef054d72ebf042f9bdbe507ccf0b2cd6dd6fdbebdbdecbdc5078034b58c2"
+    },
+    {
+      "path": "public/covers/edition-meditations.jpg",
+      "bytes": 1239760,
+      "sha256": "8142a657671e24b7040eaf9e3a852aaff291c0305c4758a9cee591abe5f9abed"
+    },
+    {
+      "path": "public/covers/edition-naval.png",
+      "bytes": 233864,
+      "sha256": "77c2f5161ca01157e7eda6e3e74731dd8be480da98a49245257ca810c3098e71"
+    },
+    {
+      "path": "public/covers/edition-origin-of-species.jpg",
+      "bytes": 1115344,
+      "sha256": "4e22d1dbd0e205be60b00d15c79b4577869733bff900ebf10fcaa7db4b2a129c"
+    },
+    {
+      "path": "public/covers/edition-principia.jpg",
+      "bytes": 169093,
+      "sha256": "a2247bb102546c7efef19be4b78b97be63eca63f79d5a8690ab93df98454a5e6"
+    },
+    {
+      "path": "public/covers/edition-the-book-of-elon-sharp.jpg",
+      "bytes": 50674,
+      "sha256": "75a1c649ddd3fe921a1bf0b8a0a36fd7e47cca00c263611f79d40a76a9cd2de3"
+    },
+    {
+      "path": "public/covers/edition-the-republic.jpg",
+      "bytes": 271635,
+      "sha256": "e1ee0511b0b316b8af9b987bd73192b8567778b06ef5da316c7938f2138593a6"
+    },
+    {
+      "path": "public/covers/edition-walden.jpg",
+      "bytes": 362198,
+      "sha256": "466d6f20a11fef6b30af7af171eeeb53f157c3c74f96293b5da6cb8b22ef9cae"
+    },
+    {
+      "path": "public/covers/edition-wealth-of-nations.jpg",
+      "bytes": 349418,
+      "sha256": "9446d411b26ed8ae0673e27feeeed5d74095375f2c471e37b82abe45798f506b"
+    },
+    {
+      "path": "public/covers/edition-zarathustra.jpg",
+      "bytes": 1751711,
+      "sha256": "8326ec2867d795e3339703d044f64c52317361ba6f5bcb32006005135cc4a1e8"
+    },
+    {
+      "path": "public/icon.svg",
+      "bytes": 513,
+      "sha256": "c264faeb4406e6ac0002bd89d88075b6182938b1201c1e1687af2324efd2fe76"
+    },
+    {
+      "path": "public/models/optimized/art-of-war-library.gltf",
+      "bytes": 45547,
+      "sha256": "3456a11c16f04d53cd8840677a0b91f66ad688d922c32b647726306c2803e15a"
+    },
+    {
+      "path": "public/models/optimized/art-of-war-shelf.gltf",
+      "bytes": 29396,
+      "sha256": "94835bb3761d05ff1ca25d9acd945f47b51d8b3bfa15db36d17ad22589c58e63"
+    },
+    {
+      "path": "public/models/optimized/art-of-war.gltf",
+      "bytes": 45436,
+      "sha256": "58af8b262ef0792aac8d0910a46d1c5cabde8268a747e8fc99444386175561e2"
+    },
+    {
+      "path": "public/models/optimized/cien-anos-de-soledad-library.gltf",
+      "bytes": 34513,
+      "sha256": "a804d9036edaa02e96de90ce43530b9330f09e94b9529d59c79d28f1946afee9"
+    },
+    {
+      "path": "public/models/optimized/cien-anos-de-soledad-shelf.gltf",
+      "bytes": 22468,
+      "sha256": "9565e816c070aafc644defc264dc91fbe73da38ac5fadfe428d20461de0fba2f"
+    },
+    {
+      "path": "public/models/optimized/cien-anos-de-soledad.gltf",
+      "bytes": 34476,
+      "sha256": "e068685b1886372c2fa5c457851cbbc0955063b84cfcc887cb0f3d82b6d48c0d"
+    },
+    {
+      "path": "public/models/optimized/how-to-fail-library.gltf",
+      "bytes": 34726,
+      "sha256": "a3f757f0b77437dea3e637f2ec9879fa697f8634539bedb47adae4e3c57d2751"
+    },
+    {
+      "path": "public/models/optimized/how-to-fail-shelf.gltf",
+      "bytes": 22348,
+      "sha256": "4746799773e8edbdb64bbea89fae49e0a1d21cbed63b013feb0c2e9fde9cfd5e"
+    },
+    {
+      "path": "public/models/optimized/how-to-fail.gltf",
+      "bytes": 34689,
+      "sha256": "3a94f705f572b69af7544f44332c3f87139a64c810ef2ee990277eb782152094"
+    },
+    {
+      "path": "public/models/optimized/le-petit-prince-library.gltf",
+      "bytes": 46416,
+      "sha256": "1dbdf01ad169c1a84e3de7a0766fa1ecd0f11e83b1be7c9aaeb3de86c417a31a"
+    },
+    {
+      "path": "public/models/optimized/le-petit-prince-shelf.gltf",
+      "bytes": 30250,
+      "sha256": "118d94341b089ec94f65c6b9a3af2669ca85bf08cf4e7d10fd8c674c47f6f703"
+    },
+    {
+      "path": "public/models/optimized/le-petit-prince.gltf",
+      "bytes": 46342,
+      "sha256": "85c9c58b66d2b05f9b78f8a72f83aec05feac3f707a7ac018da9169a54a2feb4"
+    },
+    {
+      "path": "public/models/optimized/meditations-library.gltf",
+      "bytes": 45750,
+      "sha256": "b0d7e8dbdc482552f9fe7e0a1d7b5f5c43918e53c05096e1fe6fc2ac04fa37e1"
+    },
+    {
+      "path": "public/models/optimized/meditations-shelf.gltf",
+      "bytes": 29553,
+      "sha256": "1ee03f828632ab1c7b42ac8def350a3a198b15562fb7ddf314c598b8d8ce243a"
+    },
+    {
+      "path": "public/models/optimized/meditations.gltf",
+      "bytes": 45639,
+      "sha256": "b28e031b511483cc61f6d6f7770c613c19a662d4a548c3a356ed20e5fcd8ea29"
+    },
+    {
+      "path": "public/models/optimized/naval-library.gltf",
+      "bytes": 37868,
+      "sha256": "be9d8461218de6557490a06f8fc76dc8686cb5ac03af45a384ee00bdf6bff726"
+    },
+    {
+      "path": "public/models/optimized/naval-shelf.gltf",
+      "bytes": 23745,
+      "sha256": "35321d54ed2369e8408abbe94609d16aa8db7a1a5cc15dac3549bba8d22e2597"
+    },
+    {
+      "path": "public/models/optimized/naval.gltf",
+      "bytes": 37794,
+      "sha256": "2786a0ed120def04f78eacc02aa7dd37e0b8b0cdafc1bac48b77c99ae146d194"
+    },
+    {
+      "path": "public/models/optimized/origin-of-species-library.gltf",
+      "bytes": 38552,
+      "sha256": "a86d38299efde1e0fa0cb900cc6df5c9e4eb4e8d523b430fbb0bb51678514331"
+    },
+    {
+      "path": "public/models/optimized/origin-of-species-shelf.gltf",
+      "bytes": 25163,
+      "sha256": "e01d2afb831c0af051e546ee2156d0a534fd2b21d6fa9c3c4d6633e6394210b5"
+    },
+    {
+      "path": "public/models/optimized/origin-of-species.gltf",
+      "bytes": 38478,
+      "sha256": "4b0ff32eb42118243ce1aa489c4ade4371303b72f6e5728cf1c661980ce9e615"
+    },
+    {
+      "path": "public/models/optimized/principia-library.gltf",
+      "bytes": 38366,
+      "sha256": "293919032452acb700aa3ca18be0cce3faf207033f301cf6e362f291f80088b6"
+    },
+    {
+      "path": "public/models/optimized/principia-shelf.gltf",
+      "bytes": 25001,
+      "sha256": "e8969800bda0c8707bf89c961b9f1dbafbe815773bda5d574f6a7653e7a9101c"
+    },
+    {
+      "path": "public/models/optimized/principia.gltf",
+      "bytes": 38329,
+      "sha256": "11aefcd70d26813e60f60eeb6102bdfbdcd7b53d4ad7dae61801f798a49ca421"
+    },
+    {
+      "path": "public/models/optimized/shared/03b7c7ee99e9c87966a254a3.webp",
+      "bytes": 72,
+      "sha256": "03b7c7ee99e9c87966a254a3c296eb5803f09a2360bf6312d53a1607d41b7256"
+    },
+    {
+      "path": "public/models/optimized/shared/06ada11c9eb652cd2a7812e8.webp",
+      "bytes": 216444,
+      "sha256": "06ada11c9eb652cd2a7812e8061d50f581c32f37c243b557b297a9f0f7a3a266"
+    },
+    {
+      "path": "public/models/optimized/shared/06ee4e2272fdef1e87afa8b3.webp",
+      "bytes": 716526,
+      "sha256": "06ee4e2272fdef1e87afa8b39bc623d1808b164e40e7b586b860e7220f9c39a3"
+    },
+    {
+      "path": "public/models/optimized/shared/0b23fed04d623f5ff0703f55.webp",
+      "bytes": 2689284,
+      "sha256": "0b23fed04d623f5ff0703f55ce9b9934dc33d395477bfafcc49b3ae4a0614e24"
+    },
+    {
+      "path": "public/models/optimized/shared/0bc347f00dbffdb124324b38.bin",
+      "bytes": 1343088,
+      "sha256": "0bc347f00dbffdb124324b382ab4287ab4ab7a14665ac9e01e5b0e9174694ce4"
+    },
+    {
+      "path": "public/models/optimized/shared/0dbdbf38358664fd82e67e62.bin",
+      "bytes": 1402432,
+      "sha256": "0dbdbf38358664fd82e67e62d4d3c356e738e01bec724fe209a8450e8d2cf55c"
+    },
+    {
+      "path": "public/models/optimized/shared/0fea83391d10176b056c2d41.bin",
+      "bytes": 1012436,
+      "sha256": "0fea83391d10176b056c2d419f9df2e9b7fa0439857ae53362a246c87ab5c4cd"
+    },
+    {
+      "path": "public/models/optimized/shared/140c3719f3201130f562bf79.jpg",
+      "bytes": 787647,
+      "sha256": "140c3719f3201130f562bf7927d3c276dfb2e1c1003deac2c77bd361cdebeb49"
+    },
+    {
+      "path": "public/models/optimized/shared/147f592c119e61a810aa8cc9.webp",
+      "bytes": 1350522,
+      "sha256": "147f592c119e61a810aa8cc9da4683d03c1d950daa3ab6afdbbf48e4277d2cfc"
+    },
+    {
+      "path": "public/models/optimized/shared/1cfa445ed4e585c719afc178.webp",
+      "bytes": 955812,
+      "sha256": "1cfa445ed4e585c719afc1783b9928e5c0543c15af0387f6f668bb53e93bd623"
+    },
+    {
+      "path": "public/models/optimized/shared/1d9eadd81ee9fcf4b233b3b9.webp",
+      "bytes": 74,
+      "sha256": "1d9eadd81ee9fcf4b233b3b987e015d2726ec0d4ab897e57dc0e1073ac885ce9"
+    },
+    {
+      "path": "public/models/optimized/shared/1ec1da7815c3e53e02f7f6f4.jpg",
+      "bytes": 1413518,
+      "sha256": "1ec1da7815c3e53e02f7f6f4c68b091dddd5d089ba9aa40ccebb7685e3032804"
+    },
+    {
+      "path": "public/models/optimized/shared/20eac94f28be6480975265dd.webp",
+      "bytes": 103036,
+      "sha256": "20eac94f28be6480975265dd31736d19cefb5a5ba2bb540d48c01cc2019bac92"
+    },
+    {
+      "path": "public/models/optimized/shared/2199623a94a7ff2723793220.webp",
+      "bytes": 2852622,
+      "sha256": "2199623a94a7ff27237932205160caad73621e85fa2f2ed246cc9b3ce05908b1"
+    },
+    {
+      "path": "public/models/optimized/shared/2938690472b663dde23bfdb2.webp",
+      "bytes": 70,
+      "sha256": "2938690472b663dde23bfdb26a627842fe2fceffa905638618ce56f2b4e58b16"
+    },
+    {
+      "path": "public/models/optimized/shared/2987a1b528ebce1a6e0d61c9.webp",
+      "bytes": 174,
+      "sha256": "2987a1b528ebce1a6e0d61c9e0be454aa7e3895e77f4f83c57b684a75815a335"
+    },
+    {
+      "path": "public/models/optimized/shared/29b372daa5505e9f1f2c69c8.webp",
+      "bytes": 702084,
+      "sha256": "29b372daa5505e9f1f2c69c87ba61b0f87ef260eea313156c4021ce15b215fc2"
+    },
+    {
+      "path": "public/models/optimized/shared/2e57026262aef64a682fe1ad.webp",
+      "bytes": 159594,
+      "sha256": "2e57026262aef64a682fe1ad0b8991e7232bf44a71e8ec80b4a3bb34ceb25710"
+    },
+    {
+      "path": "public/models/optimized/shared/312fca61b7d0841f423797fa.webp",
+      "bytes": 100482,
+      "sha256": "312fca61b7d0841f423797fa1905b89a6dc4cf32d0a6612e91e6461ab3c5da79"
+    },
+    {
+      "path": "public/models/optimized/shared/314698ad0f75a27404aaf9a7.bin",
+      "bytes": 1231312,
+      "sha256": "314698ad0f75a27404aaf9a7d69ec9c737ed29e67332b7eb1a257d7be23c321c"
+    },
+    {
+      "path": "public/models/optimized/shared/339c1ac519928878fbaa1237.webp",
+      "bytes": 4374,
+      "sha256": "339c1ac519928878fbaa123756e527bb70d1f4b914eb93ba095ddae80ac3d5a7"
+    },
+    {
+      "path": "public/models/optimized/shared/36ce68c13a27ace3fca21502.webp",
+      "bytes": 515456,
+      "sha256": "36ce68c13a27ace3fca215028dedfd5ec73538f4b201783eb156f6694fdb6a7a"
+    },
+    {
+      "path": "public/models/optimized/shared/39852b8132722f2ca48c0c5b.bin",
+      "bytes": 1022568,
+      "sha256": "39852b8132722f2ca48c0c5b56a83749b54d04a91d78cb0c7684d0c33f9db19a"
+    },
+    {
+      "path": "public/models/optimized/shared/3ab05532f113ec15c8dd4e8e.webp",
+      "bytes": 2338796,
+      "sha256": "3ab05532f113ec15c8dd4e8e6d7aed43fa5bca002a6071683ab10d6d34565b44"
+    },
+    {
+      "path": "public/models/optimized/shared/3f6a1e9700ded5a170905f54.bin",
+      "bytes": 946208,
+      "sha256": "3f6a1e9700ded5a170905f54360b74d74ec5d60fd49d0ad345f3d90ef8ae5e78"
+    },
+    {
+      "path": "public/models/optimized/shared/409d58accbb24301bc5dbcf2.webp",
+      "bytes": 8381612,
+      "sha256": "409d58accbb24301bc5dbcf2f9a233e90cce0c296af3e87a71d68b403184fa42"
+    },
+    {
+      "path": "public/models/optimized/shared/452798712aaf8bc4055db037.bin",
+      "bytes": 972728,
+      "sha256": "452798712aaf8bc4055db0371c133626d3e3f97816cae20d3bf62234b4ae1689"
+    },
+    {
+      "path": "public/models/optimized/shared/45a47160b98b6893760663fe.webp",
+      "bytes": 184048,
+      "sha256": "45a47160b98b6893760663fec0c84f84d0eaac2eb636ebad2f130310d527c08a"
+    },
+    {
+      "path": "public/models/optimized/shared/466d6f20a11fef6b30af7af1.jpg",
+      "bytes": 362198,
+      "sha256": "466d6f20a11fef6b30af7af171eeeb53f157c3c74f96293b5da6cb8b22ef9cae"
+    },
+    {
+      "path": "public/models/optimized/shared/49f61cb86539e805ce6a1ee3.webp",
+      "bytes": 438910,
+      "sha256": "49f61cb86539e805ce6a1ee3bc5cb2ef2c6f2ccc008ef5fd4ee24ab37c33d9f7"
+    },
+    {
+      "path": "public/models/optimized/shared/4be515e51f8a678acf7951be.webp",
+      "bytes": 35834,
+      "sha256": "4be515e51f8a678acf7951be6328829b93a1d9059190e13efe6099a6764f8e96"
+    },
+    {
+      "path": "public/models/optimized/shared/4da03549ee0f29d053b6b3c3.bin",
+      "bytes": 1474092,
+      "sha256": "4da03549ee0f29d053b6b3c377e86a9bd0484a65bcc8d2f1858de92d95ee7555"
+    },
+    {
+      "path": "public/models/optimized/shared/4e22d1dbd0e205be60b00d15.jpg",
+      "bytes": 1115344,
+      "sha256": "4e22d1dbd0e205be60b00d15c79b4577869733bff900ebf10fcaa7db4b2a129c"
+    },
+    {
+      "path": "public/models/optimized/shared/4e5adea097bbe0cd7e2239d7.webp",
+      "bytes": 731482,
+      "sha256": "4e5adea097bbe0cd7e2239d737da16ba7e339c60136fd820a7e3e4423bf27879"
+    },
+    {
+      "path": "public/models/optimized/shared/4ee0b3d4ab6cf30b27837997.webp",
+      "bytes": 5408,
+      "sha256": "4ee0b3d4ab6cf30b27837997236ea7960dd714517d994415eab2ce05520dc634"
+    },
+    {
+      "path": "public/models/optimized/shared/4f42b30204f119f13aca61ee.webp",
+      "bytes": 2644080,
+      "sha256": "4f42b30204f119f13aca61ee64ac7a333b21e2a2ae94e704c2ba923ec9d38898"
+    },
+    {
+      "path": "public/models/optimized/shared/5109fde1a076da2038877ecc.webp",
+      "bytes": 385028,
+      "sha256": "5109fde1a076da2038877eccef94b8bba491ea1637e002b6d773f86ed1043c54"
+    },
+    {
+      "path": "public/models/optimized/shared/58628b4f7f23b2c5f4089b4c.jpg",
+      "bytes": 1093941,
+      "sha256": "58628b4f7f23b2c5f4089b4c3dc3b8661eb895e426deca67e68b3776077c7c5d"
+    },
+    {
+      "path": "public/models/optimized/shared/5ae8ca751a7b6ba12e7a9ef9.webp",
+      "bytes": 933558,
+      "sha256": "5ae8ca751a7b6ba12e7a9ef9a512731d1d90f61f83197760b55d65ed3d91fed5"
+    },
+    {
+      "path": "public/models/optimized/shared/5cb7bff8447deb89ae1c4097.webp",
+      "bytes": 219638,
+      "sha256": "5cb7bff8447deb89ae1c40979a15213154378aa5fde8c0fda7d49dcae27ad719"
+    },
+    {
+      "path": "public/models/optimized/shared/5ed0a3caa9f19ec907d3aa38.bin",
+      "bytes": 975648,
+      "sha256": "5ed0a3caa9f19ec907d3aa38a4e0ca1476ed90051d2ef25a55e37154d1a6cf23"
+    },
+    {
+      "path": "public/models/optimized/shared/5fc2b49b494d3f480f17f684.webp",
+      "bytes": 86088,
+      "sha256": "5fc2b49b494d3f480f17f68401916f3a930acc39abfdd7a02aa3ae431fca6c63"
+    },
+    {
+      "path": "public/models/optimized/shared/604b41b97c6f25de6f9ad6de.bin",
+      "bytes": 396060,
+      "sha256": "604b41b97c6f25de6f9ad6dea74f1bd80cd4dd2e3bf83fc1efc4ec503900a7e5"
+    },
+    {
+      "path": "public/models/optimized/shared/6063637b60654258814cca7b.bin",
+      "bytes": 1704056,
+      "sha256": "6063637b60654258814cca7b191d43b1ee9f446d8645840ee7b7fd33983c3e30"
+    },
+    {
+      "path": "public/models/optimized/shared/61676d3e9af8c007b2476fc4.webp",
+      "bytes": 669472,
+      "sha256": "61676d3e9af8c007b2476fc43cfbd00377fa870d3352271b2fa437c63a18f5b0"
+    },
+    {
+      "path": "public/models/optimized/shared/658957751eb9cf100d35812e.webp",
+      "bytes": 2829212,
+      "sha256": "658957751eb9cf100d35812ea02f37b723228cedadd61691457d98cb6a2ceca4"
+    },
+    {
+      "path": "public/models/optimized/shared/6a63ccbbe9a58e9b2ff62d22.webp",
+      "bytes": 1093554,
+      "sha256": "6a63ccbbe9a58e9b2ff62d227dbc0b2047ed7af2b60f1d46b72589bdb08ed0d1"
+    },
+    {
+      "path": "public/models/optimized/shared/6e99e1ac3a56cf61dda83969.bin",
+      "bytes": 1259128,
+      "sha256": "6e99e1ac3a56cf61dda83969a051cd1ddcd7d5d68b592198a9d9b0726ca000e9"
+    },
+    {
+      "path": "public/models/optimized/shared/71a1a3588fc8bcb5d0819a5a.webp",
+      "bytes": 244334,
+      "sha256": "71a1a3588fc8bcb5d0819a5a3d0cbdc8173870d9c9c90b4c461f37928eb0b68c"
+    },
+    {
+      "path": "public/models/optimized/shared/75262c983a496cb7fcdc6c19.webp",
+      "bytes": 503770,
+      "sha256": "75262c983a496cb7fcdc6c194f1fd2e34e133f495cccdb4a692637d81b676d90"
+    },
+    {
+      "path": "public/models/optimized/shared/75a1c649ddd3fe921a1bf0b8.jpg",
+      "bytes": 50674,
+      "sha256": "75a1c649ddd3fe921a1bf0b8a0a36fd7e47cca00c263611f79d40a76a9cd2de3"
+    },
+    {
+      "path": "public/models/optimized/shared/7701c62282fa7f26c46af450.webp",
+      "bytes": 12912,
+      "sha256": "7701c62282fa7f26c46af450d4bab96a0acd06a4805d7680e4b636fd895a186f"
+    },
+    {
+      "path": "public/models/optimized/shared/797977d2ab00b7d70105e012.bin",
+      "bytes": 1182320,
+      "sha256": "797977d2ab00b7d70105e012f1721ed0f734b50913f3ea92fcf9b1cdf5f90e0d"
+    },
+    {
+      "path": "public/models/optimized/shared/7d9e625da595dc0fa1de565a.webp",
+      "bytes": 1818140,
+      "sha256": "7d9e625da595dc0fa1de565a4377f52a493c16da121d9e6ddc1593cfa68ce500"
+    },
+    {
+      "path": "public/models/optimized/shared/7ec9cde5aa4a7c280243210c.webp",
+      "bytes": 221072,
+      "sha256": "7ec9cde5aa4a7c280243210c2aa149160289d882d64a152f99d549295e420380"
+    },
+    {
+      "path": "public/models/optimized/shared/808049e04246a862d9143aa6.webp",
+      "bytes": 44442,
+      "sha256": "808049e04246a862d9143aa60344f772752e0004d391d07950a044210b01413b"
+    },
+    {
+      "path": "public/models/optimized/shared/8142a657671e24b7040eaf9e.jpg",
+      "bytes": 1239760,
+      "sha256": "8142a657671e24b7040eaf9e3a852aaff291c0305c4758a9cee591abe5f9abed"
+    },
+    {
+      "path": "public/models/optimized/shared/817545152c2a92c2ecde0b04.webp",
+      "bytes": 11616,
+      "sha256": "817545152c2a92c2ecde0b0408d59a54173900518b9b2a59709ecd8aea83f700"
+    },
+    {
+      "path": "public/models/optimized/shared/82130ccb5694b842d0f222fe.webp",
+      "bytes": 801362,
+      "sha256": "82130ccb5694b842d0f222fe52f58cae6553d570f1cbff39d393df9c28660846"
+    },
+    {
+      "path": "public/models/optimized/shared/829e2d0125ee737fce7f6365.webp",
+      "bytes": 2969220,
+      "sha256": "829e2d0125ee737fce7f6365c2603331bc3d7285d19fc7130f324c5093c9b978"
+    },
+    {
+      "path": "public/models/optimized/shared/8326ec2867d795e3339703d0.jpg",
+      "bytes": 1751711,
+      "sha256": "8326ec2867d795e3339703d044f64c52317361ba6f5bcb32006005135cc4a1e8"
+    },
+    {
+      "path": "public/models/optimized/shared/87bee41871799a95e10c6593.webp",
+      "bytes": 282556,
+      "sha256": "87bee41871799a95e10c65938c93fc399053110f1d1e6e81f451b769cdc7e901"
+    },
+    {
+      "path": "public/models/optimized/shared/87e03fd99a25eaf4bab50cd4.webp",
+      "bytes": 254222,
+      "sha256": "87e03fd99a25eaf4bab50cd4e983acd67518f7596b1fb67faca4c9e96de6e77d"
+    },
+    {
+      "path": "public/models/optimized/shared/8bb161f505fd3344121ca5dd.webp",
+      "bytes": 3639920,
+      "sha256": "8bb161f505fd3344121ca5ddb2b836138413da784755fd4e92545deb47db1409"
+    },
+    {
+      "path": "public/models/optimized/shared/8de172b46ec41fd3863b660a.webp",
+      "bytes": 1707198,
+      "sha256": "8de172b46ec41fd3863b660a17fa4250f43c52e48fcfef2372d2f81d5014e103"
+    },
+    {
+      "path": "public/models/optimized/shared/9418cfc945fb06688d2b6b38.webp",
+      "bytes": 2561246,
+      "sha256": "9418cfc945fb06688d2b6b38a8bb57ccde2cf8b0f395b02a4a7e612e21daee51"
+    },
+    {
+      "path": "public/models/optimized/shared/9446d411b26ed8ae0673e27f.jpg",
+      "bytes": 349418,
+      "sha256": "9446d411b26ed8ae0673e27feeeed5d74095375f2c471e37b82abe45798f506b"
+    },
+    {
+      "path": "public/models/optimized/shared/9843dc3a496d32c90daf6ae2.webp",
+      "bytes": 558544,
+      "sha256": "9843dc3a496d32c90daf6ae2632626b352f30d9ac9dcb1169c2fc1b87fe4e5c0"
+    },
+    {
+      "path": "public/models/optimized/shared/98c3a72e3346f80ad454feb3.webp",
+      "bytes": 1595750,
+      "sha256": "98c3a72e3346f80ad454feb3a0c97461f75dc870d8415c4f6455c65320f73fe0"
+    },
+    {
+      "path": "public/models/optimized/shared/98dee76443ecca382ef773d4.webp",
+      "bytes": 25896,
+      "sha256": "98dee76443ecca382ef773d45b9ac48ff4593c78244fa46d8dcee63193e95930"
+    },
+    {
+      "path": "public/models/optimized/shared/99a0c8c36e810165a680ce67.bin",
+      "bytes": 1020568,
+      "sha256": "99a0c8c36e810165a680ce6790b3b928ac1c0d0348eef6d0316f778ada6c5bf8"
+    },
+    {
+      "path": "public/models/optimized/shared/9a633e16456c88a8d5b28a3f.bin",
+      "bytes": 1702392,
+      "sha256": "9a633e16456c88a8d5b28a3fa9186c918922c498ff8dcd1f80e5b8b9d247a4c5"
+    },
+    {
+      "path": "public/models/optimized/shared/9b6a224ee18bf65656cef011.bin",
+      "bytes": 1654340,
+      "sha256": "9b6a224ee18bf65656cef011b44112ab7182159dd464b7e88dcfbae92b69689b"
+    },
+    {
+      "path": "public/models/optimized/shared/9c382a8426bb08ae082044ef.bin",
+      "bytes": 974196,
+      "sha256": "9c382a8426bb08ae082044efbbb39a77d7c3a7f70577201b0f124f7d3543aebd"
+    },
+    {
+      "path": "public/models/optimized/shared/9cc6bbdc4357a10bd195d8e1.webp",
+      "bytes": 199196,
+      "sha256": "9cc6bbdc4357a10bd195d8e15ec56ad9db0a10a5027a7758afc6c9dc78581de4"
+    },
+    {
+      "path": "public/models/optimized/shared/9e4d70c66d6d21f0ae0f4fd2.webp",
+      "bytes": 313332,
+      "sha256": "9e4d70c66d6d21f0ae0f4fd2fdc65520524acfca8896d4e2f0dc283c8d032849"
+    },
+    {
+      "path": "public/models/optimized/shared/9fe9b1ae066b6dce5acf24d6.webp",
+      "bytes": 137368,
+      "sha256": "9fe9b1ae066b6dce5acf24d6734df674c5b763ae24ba3e642c9820739aff66f5"
+    },
+    {
+      "path": "public/models/optimized/shared/a04d51bd9431742f3e8e78f4.webp",
+      "bytes": 947244,
+      "sha256": "a04d51bd9431742f3e8e78f4737ee79296b7c6f19c39df6eb24d05807e727eb0"
+    },
+    {
+      "path": "public/models/optimized/shared/a2247bb102546c7efef19be4.jpg",
+      "bytes": 169093,
+      "sha256": "a2247bb102546c7efef19be4b78b97be63eca63f79d5a8690ab93df98454a5e6"
+    },
+    {
+      "path": "public/models/optimized/shared/a24a05257d8d070b5a4e523b.bin",
+      "bytes": 1832696,
+      "sha256": "a24a05257d8d070b5a4e523bbe2f0ddf2e1f1b14671c766100011bf3cb151b6f"
+    },
+    {
+      "path": "public/models/optimized/shared/a310269675a6e5280c5f6de8.webp",
+      "bytes": 276390,
+      "sha256": "a310269675a6e5280c5f6de8ea6f9823b3d1a86b465810107279e83924a2397d"
+    },
+    {
+      "path": "public/models/optimized/shared/a490f2254a54e6ac01465d82.webp",
+      "bytes": 4671216,
+      "sha256": "a490f2254a54e6ac01465d822195254592740c1bc0ff19bc5f64952536b705bf"
+    },
+    {
+      "path": "public/models/optimized/shared/a4ffc7b7fc49def2917e39f5.webp",
+      "bytes": 1134878,
+      "sha256": "a4ffc7b7fc49def2917e39f585bcafc23008964c850be136943048277fe15ab2"
+    },
+    {
+      "path": "public/models/optimized/shared/a60fdc2d7efdf42763563767.bin",
+      "bytes": 1488872,
+      "sha256": "a60fdc2d7efdf42763563767366e4dc297f27582854bc21c56416bb75d6694aa"
+    },
+    {
+      "path": "public/models/optimized/shared/ab58152d4f356fdbb97d8744.webp",
+      "bytes": 4849012,
+      "sha256": "ab58152d4f356fdbb97d874487f5b6f97e22a005d7fc63fb4707c3367ce8f607"
+    },
+    {
+      "path": "public/models/optimized/shared/aed18e66255489351d160c4f.bin",
+      "bytes": 1585652,
+      "sha256": "aed18e66255489351d160c4fe35457152bff085a2bb310c0aa21db7f73a87db7"
+    },
+    {
+      "path": "public/models/optimized/shared/b0ebbef7d2c4e354d77e9778.webp",
+      "bytes": 763816,
+      "sha256": "b0ebbef7d2c4e354d77e97787927056d377914338b8d074eeb0f34f9f9ef45cf"
+    },
+    {
+      "path": "public/models/optimized/shared/b52d9d46b03be7dddaa00f9e.webp",
+      "bytes": 472974,
+      "sha256": "b52d9d46b03be7dddaa00f9e9ff6bf64f26dfbcc86736c896ea782ffbe198002"
+    },
+    {
+      "path": "public/models/optimized/shared/b8780a8f7828aaf8c1f4a5cb.webp",
+      "bytes": 29370,
+      "sha256": "b8780a8f7828aaf8c1f4a5cb92ffba5c23dc8cec422a6676c3549d256267f472"
+    },
+    {
+      "path": "public/models/optimized/shared/bbc16c9f1e169dfd9cfaf4e3.bin",
+      "bytes": 1449704,
+      "sha256": "bbc16c9f1e169dfd9cfaf4e39ea826404766289dea93371dd01bfd8aeaec9490"
+    },
+    {
+      "path": "public/models/optimized/shared/bdf5b65b76620ab3c03e7f21.bin",
+      "bytes": 1710624,
+      "sha256": "bdf5b65b76620ab3c03e7f2110675d1859373bb57ffbacdfaf91273361b1778c"
+    },
+    {
+      "path": "public/models/optimized/shared/be7f6540a5c6989bc701d1b4.bin",
+      "bytes": 1161392,
+      "sha256": "be7f6540a5c6989bc701d1b4a4422f182f28cb4c1d050f76e2e5c4aac246085d"
+    },
+    {
+      "path": "public/models/optimized/shared/bf662f5b8646acf6b61a2e3d.webp",
+      "bytes": 622782,
+      "sha256": "bf662f5b8646acf6b61a2e3d7eb86e3fd157bba0598e150d148f0e04f493d1cc"
+    },
+    {
+      "path": "public/models/optimized/shared/c183b0962fe3a0b29c817448.webp",
+      "bytes": 709150,
+      "sha256": "c183b0962fe3a0b29c817448f1323f177997df19d0c79a667b657071398b7670"
+    },
+    {
+      "path": "public/models/optimized/shared/c65a4a9bdd0dce53b8ec9861.webp",
+      "bytes": 21832,
+      "sha256": "c65a4a9bdd0dce53b8ec9861591e0fbc0550c27e542964a2ece8628f1a05b7ee"
+    },
+    {
+      "path": "public/models/optimized/shared/d2baaf522929e16dee6a7e79.webp",
+      "bytes": 1199318,
+      "sha256": "d2baaf522929e16dee6a7e799451e4ebb85bb6403b627b4ccc0fdf2ed51d1d23"
+    },
+    {
+      "path": "public/models/optimized/shared/d59b911399cc18260a17669c.webp",
+      "bytes": 1040556,
+      "sha256": "d59b911399cc18260a17669c77e355135caa191ad2b539c7c243f022f6f62715"
+    },
+    {
+      "path": "public/models/optimized/shared/d944d030f1e033cf8dc3d107.jpg",
+      "bytes": 42880,
+      "sha256": "d944d030f1e033cf8dc3d1075be58b6382b5367c9e488645627371dc09624ffa"
+    },
+    {
+      "path": "public/models/optimized/shared/d9d4df86d0c56fcc97a10589.webp",
+      "bytes": 947306,
+      "sha256": "d9d4df86d0c56fcc97a105892ac7dcd955b12cf21b643b2dde6eb659f2dedf53"
+    },
+    {
+      "path": "public/models/optimized/shared/e1a9f65f5babadac56a06246.webp",
+      "bytes": 24688,
+      "sha256": "e1a9f65f5babadac56a06246e0bb736b24a325aa3bfcd7f7a443ffc820f45adf"
+    },
+    {
+      "path": "public/models/optimized/shared/e3a0b3fc2d519093ce7398c3.webp",
+      "bytes": 82,
+      "sha256": "e3a0b3fc2d519093ce7398c3e81e771242d272130e9824bc3221737d902166c5"
+    },
+    {
+      "path": "public/models/optimized/shared/e76c748fd234d66ba02d73ea.webp",
+      "bytes": 756148,
+      "sha256": "e76c748fd234d66ba02d73ea714a954b2b2d55fa8f57e64e9c25cecaa2975607"
+    },
+    {
+      "path": "public/models/optimized/shared/e801ea98a8cd52f826414e4e.webp",
+      "bytes": 259362,
+      "sha256": "e801ea98a8cd52f826414e4e93c7fc171cebf4a3b6bd5833f4ebe57948b36895"
+    },
+    {
+      "path": "public/models/optimized/shared/e933106c126139066215af87.webp",
+      "bytes": 48278,
+      "sha256": "e933106c126139066215af872a44032d4508707ca0c29bdc503322971f50774d"
+    },
+    {
+      "path": "public/models/optimized/shared/eb0b9013669935da8ff50a65.webp",
+      "bytes": 1369960,
+      "sha256": "eb0b9013669935da8ff50a65dad08de783c52993e58637b6bd4ece324e899a0f"
+    },
+    {
+      "path": "public/models/optimized/shared/eb6ea5f1937095d5c757fe20.bin",
+      "bytes": 1123008,
+      "sha256": "eb6ea5f1937095d5c757fe204b6e114c8397f4153fb8a000747b9c2b1f433739"
+    },
+    {
+      "path": "public/models/optimized/shared/ef8d33b5a5dcf16eebd730ad.webp",
+      "bytes": 270540,
+      "sha256": "ef8d33b5a5dcf16eebd730ad6f8b16561c3c5215daa6fcb1bd4589914853d651"
+    },
+    {
+      "path": "public/models/optimized/shared/f1348188bc4bc08883c5229f.webp",
+      "bytes": 526052,
+      "sha256": "f1348188bc4bc08883c5229ff62007300278cd1c58a621277742cf28816724a8"
+    },
+    {
+      "path": "public/models/optimized/shared/f17f3c01f1780c7a2ee41b62.webp",
+      "bytes": 1617838,
+      "sha256": "f17f3c01f1780c7a2ee41b62a7f440d1f2ca4c41d491514de4835701406b7da8"
+    },
+    {
+      "path": "public/models/optimized/shared/f2648ab2a15195a0182e5f0e.jpg",
+      "bytes": 88154,
+      "sha256": "f2648ab2a15195a0182e5f0e440d911e31f70b9692296ad2b755f085a065ce6c"
+    },
+    {
+      "path": "public/models/optimized/shared/f2ea7f1be1e4828de1c077f9.webp",
+      "bytes": 180360,
+      "sha256": "f2ea7f1be1e4828de1c077f9198252fb0ad4b111e661610eeb3c87045e63eeb3"
+    },
+    {
+      "path": "public/models/optimized/shared/f48e5a4a7bfce0deef9edd17.bin",
+      "bytes": 1357756,
+      "sha256": "f48e5a4a7bfce0deef9edd1722191deff3fc9f35af0896ce3de8b096471847ab"
+    },
+    {
+      "path": "public/models/optimized/shared/f4dec6585dfceecc944913d4.webp",
+      "bytes": 108,
+      "sha256": "f4dec6585dfceecc944913d4c14201b1705721d80b4e5811076bdd83bd548395"
+    },
+    {
+      "path": "public/models/optimized/shared/f55b892062a6d07348a7700c.bin",
+      "bytes": 837424,
+      "sha256": "f55b892062a6d07348a7700c491e0d5a5fc21162d576da892dfb6836505e2a72"
+    },
+    {
+      "path": "public/models/optimized/the-book-of-elon-library.gltf",
+      "bytes": 46104,
+      "sha256": "8a9f77883af404aca8d2736704811f188bd9a591061affe142be0cdb102a6d26"
+    },
+    {
+      "path": "public/models/optimized/the-book-of-elon-shelf.gltf",
+      "bytes": 29964,
+      "sha256": "b9b53196c8507954901fc9b4d5dd881ae511179c3577243aab79693c44461e50"
+    },
+    {
+      "path": "public/models/optimized/the-book-of-elon.gltf",
+      "bytes": 46030,
+      "sha256": "67996b9c1f361d749ed712ea74fd3011ccdcaecceff8d0a93c5cd054665a5451"
+    },
+    {
+      "path": "public/models/optimized/the-republic-library.gltf",
+      "bytes": 45544,
+      "sha256": "ac199e1ee648db57a5f028040bf76421b57f02e0cee16e9218c079493bfe4db3"
+    },
+    {
+      "path": "public/models/optimized/the-republic-shelf.gltf",
+      "bytes": 29396,
+      "sha256": "2ebcf0c26aff49d6c01baa809b3859a508ad25020ef49de3f23036bbe64175b4"
+    },
+    {
+      "path": "public/models/optimized/the-republic.gltf",
+      "bytes": 45470,
+      "sha256": "602b0a5b5d37826d5a0878f91a1c2de9d4fa69204e9b1152c024f89d98bb84d8"
+    },
+    {
+      "path": "public/models/optimized/walden-library.gltf",
+      "bytes": 45458,
+      "sha256": "b5bb8f5502a1bc653c3313df2a3b132e0210b6580c53558505439f39840c0171"
+    },
+    {
+      "path": "public/models/optimized/walden-shelf.gltf",
+      "bytes": 29311,
+      "sha256": "1b60a56282175a257cf625110b4cbfbeca118d1971475c7fd22054d2e54c954c"
+    },
+    {
+      "path": "public/models/optimized/walden.gltf",
+      "bytes": 45347,
+      "sha256": "4f018340801d42f636ae2f72cfe5d46cf22fa360b5437994513059b8a5d8cc8e"
+    },
+    {
+      "path": "public/models/optimized/wealth-of-nations-library.gltf",
+      "bytes": 45622,
+      "sha256": "48aef4f729adaa5165040229df21e45414ee652141f06517f1749716a521985d"
+    },
+    {
+      "path": "public/models/optimized/wealth-of-nations-shelf.gltf",
+      "bytes": 29470,
+      "sha256": "cb01abd1421ec9271fe5817d0f53e9336a3b6e149952f8bb41b32c5107bd6e10"
+    },
+    {
+      "path": "public/models/optimized/wealth-of-nations.gltf",
+      "bytes": 45511,
+      "sha256": "7ef8635447f10bb5f3c89011c064d49e161942eab720ecd750679fcc35d4b4df"
+    },
+    {
+      "path": "public/models/optimized/zarathustra-library.gltf",
+      "bytes": 45636,
+      "sha256": "978ffae92047e04116c6409445cf6ab61faa4854e073040aeae3697e67ede7ec"
+    },
+    {
+      "path": "public/models/optimized/zarathustra-shelf.gltf",
+      "bytes": 29463,
+      "sha256": "b8226d755aa97a37f71d16e585283b76bf33f9c0b7b8b6462b29c6dd20389e6e"
+    },
+    {
+      "path": "public/models/optimized/zarathustra.gltf",
+      "bytes": 45525,
+      "sha256": "36afb5518afac4564632b54c0472cdbaa4c48a134487b8495b6d017b2c986733"
+    },
+    {
+      "path": "public/reading/pdf.worker.min.mjs",
+      "bytes": 1265413,
+      "sha256": "8ab0e5e30031b4a06ecfddd5ae9562f0227f830ee7ec9ed1a968b134243d2386"
+    },
+    {
+      "path": "scripts/doctor.mjs",
+      "bytes": 1154,
+      "sha256": "b327f37406f50f88a92ebf6d8fc3f43a237f6722df139517390eb92cd40c5a1e"
+    },
+    {
+      "path": "scripts/fetch-asset.mjs",
+      "bytes": 2805,
+      "sha256": "fcede2b753efbf8b0e3471316f20b98e93198354cab712c97b3071c4701f3722"
+    },
+    {
+      "path": "scripts/pack-book.mjs",
+      "bytes": 6892,
+      "sha256": "686f02374d92f06c15a0dc1f78370f93fa6063fae307326852e8b28e569e88f3"
+    },
+    {
+      "path": "scripts/prepare_pdf_worker.mjs",
+      "bytes": 316,
+      "sha256": "d88f56d3a043ca3b0900061139efce9d2b5d155bce3a999c1af159d2898e4cde"
+    },
+    {
+      "path": "scripts/refresh-manifest.mjs",
+      "bytes": 1934,
+      "sha256": "c0007a4d803175702114fda54c41f60fbb93b98ff9163b5c3969fad19cbfabbe"
+    },
+    {
+      "path": "scripts/research-book.mjs",
+      "bytes": 1849,
+      "sha256": "18e08d3482452323f1f35250726c52baa08a4fb705e6ffbed144363015409a59"
+    },
+    {
+      "path": "scripts/verify-blender.mjs",
+      "bytes": 1454,
+      "sha256": "4f5c0a9a7f80d77210024021654fd08a3ff144234a0b08823680f737888883f7"
+    },
+    {
+      "path": "scripts/verify-package.mjs",
+      "bytes": 3241,
+      "sha256": "38a0883c46c3452274cf065e348c142f730b3586ea50372850030af159ceef10"
+    },
+    {
+      "path": "src/app/api/reading/naval/route.ts",
+      "bytes": 1117,
+      "sha256": "56d4a873d87570c079c02d2dbbd8fdd57a7b03d863bd6ce8ccede76f0f169354"
+    },
+    {
+      "path": "src/app/books/[slug]/page.tsx",
+      "bytes": 693,
+      "sha256": "7eae7018ce9327a7e777bcd99e4b63d4815fe443717e1d7192bd105ecd946bd8"
+    },
+    {
+      "path": "src/app/globals.css",
+      "bytes": 44431,
+      "sha256": "0ab24ec297986a048b7c2e27126134096ad0366c873ca18b332d6fb5285e1d44"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "bytes": 828,
+      "sha256": "8da84702b6ff3cbc9dc2eb1c9a3912463d0b94609ad3758d6d60cc16878f6161"
+    },
+    {
+      "path": "src/app/page.tsx",
+      "bytes": 113,
+      "sha256": "d352b65d763098ba0e4fbb5ce7e1294f17f03207974a44136696e7c8c9c3e7cf"
+    },
+    {
+      "path": "src/components/BlenderBook.tsx",
+      "bytes": 3781,
+      "sha256": "a3eea9ce962b6bc92c2db5be0c996c18d207162637dcf74f3b815cd305c5947f"
+    },
+    {
+      "path": "src/components/BookEditorial.tsx",
+      "bytes": 4823,
+      "sha256": "34d3017b359d83a82c1852e0f300934da44d12333ebb754e760c5494c42b998d"
+    },
+    {
+      "path": "src/components/BookLighting.tsx",
+      "bytes": 1331,
+      "sha256": "a98a82a337b01b1df028d98d9dd32416750e8e40782fca8a3e76a6f1ec024d98"
+    },
+    {
+      "path": "src/components/DirectionIcon.tsx",
+      "bytes": 475,
+      "sha256": "83e24475a64d8e33947d0fd03e4e34a3b9ce7f1a1fb93832f4cbfb96385c448c"
+    },
+    {
+      "path": "src/components/LibraryEntrance.tsx",
+      "bytes": 3575,
+      "sha256": "3903da1c2301fefd2e0f84d771a5485976eee6ea8ddadc6ec6c07d1de7c3831f"
+    },
+    {
+      "path": "src/components/LibraryExperience.tsx",
+      "bytes": 23320,
+      "sha256": "09d786ba34d726075941fbefbdf056b8b140014de780b59eb866f4180b30f74f"
+    },
+    {
+      "path": "src/components/LibraryLocale.tsx",
+      "bytes": 1209,
+      "sha256": "f1a8959b17c7d6d89acbf5571feac98c852ddaf100b10dcb4c96ff48df4d64c2"
+    },
+    {
+      "path": "src/components/LibraryScene.tsx",
+      "bytes": 16902,
+      "sha256": "b1465ea9f4915fd364d3f313cac54b8472fadb191fb206cb4c90c3f7a3abe2d7"
+    },
+    {
+      "path": "src/components/ReadMode.tsx",
+      "bytes": 4981,
+      "sha256": "3d1a1e88c97b1b3a34b3391906dd3c282c99e96eb16a419f8773d986fc0f7f3e"
+    },
+    {
+      "path": "src/components/useBookMechanics.ts",
+      "bytes": 3876,
+      "sha256": "7f086ab3ae04d05682fa00492dc6d523a45b81edc959fe124449e2b4b57cadc1"
+    },
+    {
+      "path": "src/components/useLibraryColors.ts",
+      "bytes": 1807,
+      "sha256": "c5274a86a8fd36fafece5da96969f0b1e667586b3cb4ecc01a8b8ca4adf13acc"
+    },
+    {
+      "path": "src/components/usePrintedPages.ts",
+      "bytes": 11582,
+      "sha256": "d86c56f17221efc9355879abf36255aa8d6049b8560b7632d866a15d4acc323a"
+    },
+    {
+      "path": "src/components/useReducedMotion.ts",
+      "bytes": 390,
+      "sha256": "a9f568376ecc92c918c8ca933770e74a90ef207f0563da5a370be2be820b48d4"
+    },
+    {
+      "path": "src/components/useRibbonMechanics.ts",
+      "bytes": 2840,
+      "sha256": "5a3e32240cd7dcd795654523037ac47a4e2165d3e75612b94f4c1d75ba772f9b"
+    },
+    {
+      "path": "src/lib/book-buy-links.ts",
+      "bytes": 3692,
+      "sha256": "b685cc194ed61454d9948aa7e8b32fccfcb7da98e9b7f047a72f205208d2b940"
+    },
+    {
+      "path": "src/lib/book-editorial.ts",
+      "bytes": 23939,
+      "sha256": "b6d958cb75931243efb18ef621643a7a43909fa09542a49f7de154933659d5e1"
+    },
+    {
+      "path": "src/lib/book-loader.ts",
+      "bytes": 1327,
+      "sha256": "d5a770abcf2c591cfdde0c224566315fdef413b2455b25a5ea9410f13b48ad93"
+    },
+    {
+      "path": "src/lib/book-palettes.ts",
+      "bytes": 2234,
+      "sha256": "18af82b17818236e495a5339db7d9470303fb5f1fa90f9e40f688b9289530b6a"
+    },
+    {
+      "path": "src/lib/book-physics.ts",
+      "bytes": 8988,
+      "sha256": "aa0ca38b356133a9b843476bf90b17582cc0533b727640a850952823f1bdf01f"
+    },
+    {
+      "path": "src/lib/books.ts",
+      "bytes": 4914,
+      "sha256": "df419e8e52ca2624e9a1f3daadf2a212a010cb742ecd5fdccf79f0cd37f52632"
+    },
+    {
+      "path": "src/lib/library-config.ts",
+      "bytes": 1627,
+      "sha256": "1ab83d94d2c440448228462c8372dbd240971f39221b4082454a5f0f6a8e1e33"
+    },
+    {
+      "path": "src/lib/library-i18n.ts",
+      "bytes": 790,
+      "sha256": "bee88fe215b53b11c8120507dedae619858e334c55a2a6e71e1af518580465a1"
+    },
+    {
+      "path": "src/lib/library-messages.json",
+      "bytes": 24197,
+      "sha256": "2e2820245c03e8a73f6bf49bdd3ede6150b4e936c4d85bfdb7a2a63bbf4410e0"
+    },
+    {
+      "path": "src/lib/library-motion.ts",
+      "bytes": 262,
+      "sha256": "d3fb7c91d15fd3f7ca0512b53b029030305c691430da7361670f71664fe4e595"
+    },
+    {
+      "path": "src/lib/library-routes.json",
+      "bytes": 439,
+      "sha256": "a7969ef7c4a6a31700239ee5296173bb1b0afdafab8b3dc463a8c5e1c4bd05c1"
+    },
+    {
+      "path": "src/lib/library-settings.json",
+      "bytes": 367,
+      "sha256": "9baf2640738c6f1d9291ed397673ebdcca749983f01a7e2405763afc033f23c2"
+    },
+    {
+      "path": "src/lib/model-manifest.json",
+      "bytes": 16161,
+      "sha256": "3b68308542d9e3c469855d452e1f9ee3e07f3d70e12c477adf1fed230c91a451"
+    },
+    {
+      "path": "src/lib/printed-pages.ts",
+      "bytes": 4040,
+      "sha256": "f6e2642ba97e78c07e8e7e26560e53d31adbe7e55682a8b93b58dc3de2bcd223"
+    },
+    {
+      "path": "src/lib/projection.ts",
+      "bytes": 1433,
+      "sha256": "3eda1dc306805357f43b6156396f8b0d3db8e63c4dc7ed5daf71547fb1ae697d"
+    },
+    {
+      "path": "src/lib/reading.ts",
+      "bytes": 1995,
+      "sha256": "62d7569de3b6a7bd5db5fa5bfd25e51dc6ceda60315563583ffff2d97d989cb4"
+    },
+    {
+      "path": "src/lib/ribbon-physics.ts",
+      "bytes": 12466,
+      "sha256": "62a21fe7481d1acebc029feef6ebd02c9faf2ab625338c233c94a6914ad66c8b"
+    },
+    {
+      "path": "src/store/useBookPrint.ts",
+      "bytes": 876,
+      "sha256": "ec6091a7ccaa1d52eeac4eda01c82855f4efd757a9af2afee6d3d8be2a877fc2"
+    },
+    {
+      "path": "src/store/useLibrary.ts",
+      "bytes": 1996,
+      "sha256": "9ea81dd52e37b9f73bef8868729648e0890036b0e5198b893f9c997756ecde72"
+    },
+    {
+      "path": "src/store/useShelf.ts",
+      "bytes": 2196,
+      "sha256": "ccb1663625d0207c8db236aad25c7b433c34de614d0b05599521892cad67d3e7"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 702,
+      "sha256": "55134881a23efd2a1f9266d2d0752731ff9c40d0e867136cd8863ea679560a09"
+    }
+  ]
+}

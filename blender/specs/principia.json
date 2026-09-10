@@ -1,0 +1,28 @@
+{
+  "slug": "principia",
+  "width": 1.778,
+  "height": 2.54,
+  "depth": 0.365,
+  "dimensionsMm": [
+    177.8,
+    254,
+    37
+  ],
+  "dimensionNote": "Published height and width; modeled spine depth",
+  "isbn": "9780520290747",
+  "publisher": "University of California Press",
+  "modeledPages": 616,
+  "boardMm": 0.5,
+  "binding": "Paperback",
+  "modelSha256": "716e058e2e953161cf28e22a8e3cb1561228a085c95c10b1d80c68ffda2693fb",
+  "libraryModelUrl": "/models/optimized/principia-library.gltf",
+  "librarySha256": "293919032452acb700aa3ca18be0cce3faf207033f301cf6e362f291f80088b6",
+  "runtimeModelUrl": "/models/optimized/principia.gltf",
+  "runtimeSha256": "11aefcd70d26813e60f60eeb6102bdfbdcd7b53d4ad7dae61801f798a49ca421",
+  "shelfModelUrl": "/models/optimized/principia-shelf.gltf",
+  "shelfSha256": "e8969800bda0c8707bf89c961b9f1dbafbe815773bda5d574f6a7653e7a9101c",
+  "sourceUrl": "https://www.ucpress.edu/books/the-principia-the-authoritative-translation/paper",
+  "coverUrl": "https://webfiles.ucpress.edu/coverimage/isbn13/9780520290747.jpg",
+  "cover": "/covers/edition-principia.jpg",
+  "paperGapMm": 1.1
+}

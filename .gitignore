@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+.tmp/
+.env*
+!.env.example
+.vercel/
+*.tsbuildinfo
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+*.blend1
+*.blend2

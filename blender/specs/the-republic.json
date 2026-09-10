@@ -1,0 +1,28 @@
+{
+  "slug": "the-republic",
+  "width": 1.27,
+  "height": 2.032,
+  "depth": 0.269,
+  "dimensionsMm": [
+    127,
+    203.2,
+    29
+  ],
+  "dimensionNote": "Published height and width; modeled spine depth",
+  "isbn": "9780679413301",
+  "publisher": "Everyman’s Library",
+  "modeledPages": 408,
+  "boardMm": 2.1,
+  "binding": "Hardcover with printed jacket",
+  "modelSha256": "63da6a2720d4e25f4415219cdeddc2dfae6012651b0f004ddb1297b171cfeb52",
+  "libraryModelUrl": "/models/optimized/the-republic-library.gltf",
+  "librarySha256": "ac199e1ee648db57a5f028040bf76421b57f02e0cee16e9218c079493bfe4db3",
+  "runtimeModelUrl": "/models/optimized/the-republic.gltf",
+  "runtimeSha256": "602b0a5b5d37826d5a0878f91a1c2de9d4fa69204e9b1152c024f89d98bb84d8",
+  "shelfModelUrl": "/models/optimized/the-republic-shelf.gltf",
+  "shelfSha256": "2ebcf0c26aff49d6c01baa809b3859a508ad25020ef49de3f23036bbe64175b4",
+  "sourceUrl": "https://www.penguinrandomhouse.com/books/131794/the-republic-by-plato-translated-by-ad-lindsay-introduction-by-alexander-nehamas/",
+  "coverUrl": "https://images.penguinrandomhouse.com/cover/tif/9780679413301",
+  "cover": "/covers/edition-the-republic.jpg",
+  "paperGapMm": 1.1
+}

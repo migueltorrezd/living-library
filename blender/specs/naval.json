@@ -1,0 +1,28 @@
+{
+  "slug": "naval",
+  "width": 1.3969999999999998,
+  "height": 2.127,
+  "depth": 0.284,
+  "dimensionsMm": [
+    139.7,
+    212.7,
+    30.5
+  ],
+  "dimensionNote": "Measurements correspond to the selected print edition",
+  "isbn": "9798893310948",
+  "publisher": "Authors Equity",
+  "modeledPages": 256,
+  "boardMm": 2.1,
+  "binding": "Hardcover",
+  "modelSha256": "cd42c04eac8a67b90bd7c4e34ea317d35117d24ff5c22c4fa6cd78127ff58431",
+  "libraryModelUrl": "/models/optimized/naval-library.gltf",
+  "librarySha256": "be9d8461218de6557490a06f8fc76dc8686cb5ac03af45a384ee00bdf6bff726",
+  "runtimeModelUrl": "/models/optimized/naval.gltf",
+  "runtimeSha256": "2786a0ed120def04f78eacc02aa7dd37e0b8b0cdafc1bac48b77c99ae146d194",
+  "shelfModelUrl": "/models/optimized/naval-shelf.gltf",
+  "shelfSha256": "35321d54ed2369e8408abbe94609d16aa8db7a1a5cc15dac3549bba8d22e2597",
+  "sourceUrl": "https://www.simonandschuster.com/books/The-Almanack-of-Naval-Ravikant/Eric-Jorgenson/9798893310948",
+  "coverUrl": "https://m.media-amazon.com/images/I/61ptYzpPOsL._SL1500_.jpg",
+  "cover": "/covers/edition-naval.png",
+  "paperGapMm": 0.8
+}

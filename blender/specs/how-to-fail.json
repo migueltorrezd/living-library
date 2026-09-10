@@ -1,0 +1,28 @@
+{
+  "slug": "how-to-fail",
+  "width": 1.4,
+  "height": 2.16,
+  "depth": 0.165,
+  "dimensionsMm": [
+    140,
+    216,
+    17
+  ],
+  "dimensionNote": "Measurements correspond to the selected print edition",
+  "isbn": "9798988534945",
+  "publisher": "Scott Adams, Inc.",
+  "modeledPages": 288,
+  "boardMm": 0.5,
+  "binding": "Paperback",
+  "modelSha256": "9346da65669d9f28dfee306d3b8fb167404e69db082ec525e157e395c59452a7",
+  "libraryModelUrl": "/models/optimized/how-to-fail-library.gltf",
+  "librarySha256": "a3f757f0b77437dea3e637f2ec9879fa697f8634539bedb47adae4e3c57d2751",
+  "runtimeModelUrl": "/models/optimized/how-to-fail.gltf",
+  "runtimeSha256": "3a94f705f572b69af7544f44332c3f87139a64c810ef2ee990277eb782152094",
+  "shelfModelUrl": "/models/optimized/how-to-fail-shelf.gltf",
+  "shelfSha256": "4746799773e8edbdb64bbea89fae49e0a1d21cbed63b013feb0c2e9fde9cfd5e",
+  "sourceUrl": "https://www.libristo.eu/en/book/how-to-fail-at-almost-everything-and-still-win-big-kind-of-the-story-of-my-life_44117165",
+  "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/f2/8a/b3/f28ab3ec-f1be-20b0-5079-ac93393e2ea6/0001125990.jpg/2400x2400bb.jpg",
+  "cover": "/covers/edition-how-to-fail.png",
+  "paperGapMm": 0.22
+}

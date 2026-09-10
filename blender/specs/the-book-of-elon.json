@@ -1,0 +1,28 @@
+{
+  "slug": "the-book-of-elon",
+  "width": 1.3969999999999998,
+  "height": 2.1590000000000003,
+  "depth": 0.233,
+  "dimensionsMm": [
+    139.7,
+    215.9,
+    25.4
+  ],
+  "dimensionNote": "Matching front of the red edition; hardcover dimensions from Target 9781544550756. Back and spine reconstructed",
+  "isbn": "9781544550756",
+  "publisher": "Magrathea",
+  "modeledPages": 400,
+  "boardMm": 2.1,
+  "binding": "Hardcover",
+  "modelSha256": "47633928a77c274ee56f3e7342964816e6f0bd7d06343d14a38cf7b1e4b4ab5f",
+  "libraryModelUrl": "/models/optimized/the-book-of-elon-library.gltf",
+  "librarySha256": "8a9f77883af404aca8d2736704811f188bd9a591061affe142be0cdb102a6d26",
+  "runtimeModelUrl": "/models/optimized/the-book-of-elon.gltf",
+  "runtimeSha256": "67996b9c1f361d749ed712ea74fd3011ccdcaecceff8d0a93c5cd054665a5451",
+  "shelfModelUrl": "/models/optimized/the-book-of-elon-shelf.gltf",
+  "shelfSha256": "b9b53196c8507954901fc9b4d5dd881ae511179c3577243aab79693c44461e50",
+  "sourceUrl": "https://www.elonmuskbook.org/",
+  "coverUrl": "https://images-us.bookshop.org/ingram/9781544550756.jpg?v=b32120b1b6cf7c497713ced6f7e908eb",
+  "cover": "/covers/edition-the-book-of-elon-sharp.jpg",
+  "paperGapMm": 0.8
+}
