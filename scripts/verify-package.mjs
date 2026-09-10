@@ -6,10 +6,10 @@ import vm from 'node:vm';
 import ts from 'typescript';
 const root=resolve(import.meta.dirname,'..'),json=p=>JSON.parse(readFileSync(resolve(root,p),'utf8'));
 function dataModule(path){
- const exports={},module={exports};
+ const exports={},compiledModule={exports};
  const source=ts.transpileModule(readFileSync(resolve(root,path),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
- vm.runInNewContext(source,{module,exports},{filename:path,timeout:1000});
- return JSON.parse(JSON.stringify(module.exports));
+ vm.runInNewContext(source,{module:compiledModule,exports},{filename:path,timeout:1000});
+ return JSON.parse(JSON.stringify(compiledModule.exports));
 }
 const models=json('src/lib/model-manifest.json');
 const collection=json('COLLECTION.json');

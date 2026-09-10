@@ -1209,8 +1209,8 @@
     },
     {
       "path": "scripts/verify-package.mjs",
-      "bytes": 3241,
-      "sha256": "38a0883c46c3452274cf065e348c142f730b3586ea50372850030af159ceef10"
+      "bytes": 3272,
+      "sha256": "85e9d6ea9410d023ab6164402a3a777dc6b67350dde429973dbd217ea67afd1d"
     },
     {
       "path": "src/app/api/reading/naval/route.ts",
