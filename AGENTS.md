@@ -16,7 +16,7 @@ Read `docs/authoring/agent-workflow.md` before authoring books and `docs/authori
 - Keep source URLs, original pixel dimensions, hashes and rights notes. Missing spine/back artwork remains a stated reconstruction. Do not invent publisher marks or realistic-looking unreadable lettering.
 - Use original cover pixels. Separate printing from paper/cloth UVs and normal/roughness maps. Do not silently use paid generation, subscriptions or scraped paid book text.
 - Preserve named hinges, leaves and ribbons. Geometry is authored in decimetres under a calibrated root; glTF exports in metres. Consult the runtime before changing hierarchy or topology.
-- MCP executes code locally. Bind to loopback, disable telemetry in both server and add-on, preserve client configuration and never expose it to the internet.
+- MCP executes code locally. Use the official Blender Lab MCP, keep its bridge on loopback, preserve client configuration and never expose it to the internet. Look up Blender API names with its documentation tools instead of guessing.
 
 ## Completion
 

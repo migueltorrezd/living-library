@@ -37,7 +37,7 @@ Open this repository in your coding agent and use:
 
 > Read AGENTS.md and docs/authoring/agent-workflow.md. Get the library running locally. Then help me add this specific book edition: [publisher link, ISBN or cover reference]. Set up Blender and Blender MCP if needed, research the matching front, spine, back and physical dimensions, build in a separate working copy, and verify the result in the actual library. Preserve existing books. Identify missing references instead of inventing an edition or claiming a reconstructed side is original artwork.
 
-[Blender/MCP setup](docs/authoring/blender-setup.md) covers macOS, Windows, Linux, a pinned MCP version, Codex and JSON client configuration, and a live connection check. The [authoring workflow](docs/authoring/agent-workflow.md) covers research, materials, UVs, export, registration and visual review. A repository skill lives at [.agents/skills/library-books/SKILL.md](.agents/skills/library-books/SKILL.md).
+[Blender/MCP setup](docs/authoring/blender-setup.md) covers macOS, Windows, Linux, the official Blender Lab MCP at a pinned version, Codex, Claude Code and JSON client configuration, and a live connection check. The [authoring workflow](docs/authoring/agent-workflow.md) covers research, materials, UVs, export, registration and visual review. A repository skill lives at [.agents/skills/library-books/SKILL.md](.agents/skills/library-books/SKILL.md).
 
 ```sh
 npm run doctor

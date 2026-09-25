@@ -49,8 +49,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 2555,
-      "sha256": "8603140e18dbb72dc647a3153905c24651d886cc00f61280ca3f697dbe470eb7"
+      "bytes": 2631,
+      "sha256": "8ad950c96f8b1a133400a5a88f52e2784e7aa13309fde070d8b3e49cd0009d5c"
     },
     {
       "path": "CLAUDE.md",
@@ -74,13 +74,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 4676,
-      "sha256": "fc96a7aa56ecd45db868adaa7d83adaac1d05c9188512334dfb68b399bb73c59"
+      "bytes": 4717,
+      "sha256": "b90a4eddb09821affaa5ce1a5df8852133a19f522058ec6cb8334b9476e10bc7"
     },
     {
       "path": "SECURITY.md",
-      "bytes": 753,
-      "sha256": "48ef04952b376b69acf20a74c5f7835b05c24b0543abd7f6cabdc71c1c96e537"
+      "bytes": 821,
+      "sha256": "2c797c68f395fa0e6ac71fd3cc5ef05fd5b638059eeca82b19b95186137eee0c"
     },
     {
       "path": "blender/books/art-of-war.blend",
@@ -229,8 +229,8 @@
     },
     {
       "path": "docs/authoring/blender-setup.md",
-      "bytes": 4964,
-      "sha256": "a6e8ecd08346a3630aa833ae0865dc47fc93fecfedac833dbf54dedaf861ca21"
+      "bytes": 6606,
+      "sha256": "5f3d35e71a23d5a4081ab43a02d0c4c9e96589315d156efe037bd2e20d942fd3"
     },
     {
       "path": "docs/authoring/export-and-register.md",
@@ -314,8 +314,8 @@
     },
     {
       "path": "examples/mcp/blender.json",
-      "bytes": 300,
-      "sha256": "ed4f64f37a94fd4b7c4bb11d47296bb7192c370247b7d2e2fc12fd113218048d"
+      "bytes": 325,
+      "sha256": "fe81ea0e9768b2acadd5a4acd3ce8120ab62e9ce48f6d1f00c95d9cd6008e7df"
     },
     {
       "path": "next.config.ts",
@@ -1174,8 +1174,8 @@
     },
     {
       "path": "scripts/doctor.mjs",
-      "bytes": 1154,
-      "sha256": "b327f37406f50f88a92ebf6d8fc3f43a237f6722df139517390eb92cd40c5a1e"
+      "bytes": 1171,
+      "sha256": "7b7c3ececd5919f1313a0b72f486f6d971fccb747da0b5f66a8046f636acb1c3"
     },
     {
       "path": "scripts/fetch-asset.mjs",

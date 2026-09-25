@@ -3,14 +3,13 @@
     "blender": {
       "command": "uvx",
       "args": [
-        "--python",
-        "3.11",
-        "blender-mcp==1.9.1"
+        "--from",
+        "git+https://projects.blender.org/lab/blender_mcp.git@v1.0.3#subdirectory=mcp",
+        "blender-mcp"
       ],
       "env": {
-        "BLENDER_HOST": "127.0.0.1",
-        "BLENDER_PORT": "9876",
-        "BLENDER_MCP_DISABLE_TELEMETRY": "1"
+        "BLENDER_MCP_HOST": "127.0.0.1",
+        "BLENDER_MCP_PORT": "9876"
       }
     }
   }
