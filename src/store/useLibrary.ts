@@ -30,5 +30,7 @@ export const libraryMotion={
  shelfRows:[] as {top:number;height:number;left:number;width:number}[],
  stages:[] as (HTMLElement|null)[],
  readPan:{x:0,y:0},
+ // Fine-pointer position, -1..1 from the viewport centre; the reading book leans toward it.
+ cursor:{x:0,y:0,active:false},
  gestures:Array.from({length:BOOKS.length},()=>({pitch:0,yaw:0,zoom:1,dragging:false})),
 };

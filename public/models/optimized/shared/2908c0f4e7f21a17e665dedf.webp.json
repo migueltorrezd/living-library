@@ -1,0 +1,4 @@
+{
+  "prompt": "Publisher cover artwork. Same artwork at higher resolution from https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9798893310948/the-almanack-of-naval-ravikant-9798893310948_hr.jpg; registered by ECC affine to the previous 973x1500 frame (mean abs residual 1.16/255), resampled once into that frame at 1400x2158. No enlargement beyond source pixels. Edition source: https://www.simonandschuster.com/books/The-Almanack-of-Naval-Ravikant/Eric-Jorgenson/9798893310948. Artwork rights remain with the publisher. Runtime encoding by scripts/optimize_web_models.mjs. Shelf texture mip capped at 2048px, encoded losslessly. Full-resolution inspection source retained.",
+  "sha256": "2908c0f4e7f21a17e665dedf5374352fee2e3512eb6b80fbca2c12a9b3a81049"
+}

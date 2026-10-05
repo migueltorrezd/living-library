@@ -1,0 +1,4 @@
+{
+  "prompt": "Technical material bake by scripts/bake_print_finishes.py from registered publisher cover https://media.groupe.gallimard.fr/couvHD/A65311.jpg. Artwork pixels are unchanged. Custom print_orm surface data. Substrate normal source: https://ambientcg.com/view?id=Paper001 (CC0). No Stripe texture or shader is included. Runtime encoding by scripts/optimize_web_models.mjs. Original-resolution pixels preserved; smaller of original encoding and lossless WebP.",
+  "sha256": "36ce68c13a27ace3fca215028dedfd5ec73538f4b201783eb156f6694fdb6a7a"
+}

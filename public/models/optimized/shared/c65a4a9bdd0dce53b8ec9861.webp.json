@@ -1,0 +1,4 @@
+{
+  "prompt": "Authored technical compressed-paper compressed-paper-normal map from scripts/refine_paper_surfaces.py. 256 sheet layers; repeatable 60 mm cut length. Directional sheet structure with micron-scale relief. No photographic cover, Stripe asset or shader is included. Runtime encoding by scripts/optimize_web_models.mjs. Original-resolution pixels preserved; smaller of original encoding and lossless WebP.",
+  "sha256": "c65a4a9bdd0dce53b8ec9861591e0fbc0550c27e542964a2ece8628f1a05b7ee"
+}

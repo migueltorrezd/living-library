@@ -1,0 +1,4 @@
+{
+  "prompt": "Technical material bake by scripts/bake_print_finishes.py from registered publisher cover https://images.penguinrandomhouse.com/cover/tif/9780807024102. Artwork pixels are unchanged. Custom print_orm surface data. Cloth normal source: https://polyhaven.com/a/book_pattern (CC0). No Stripe texture or shader is included. Runtime encoding by scripts/optimize_web_models.mjs. Original-resolution pixels preserved; smaller of original encoding and lossless WebP.",
+  "sha256": "808049e04246a862d9143aa60344f772752e0004d391d07950a044210b01413b"
+}

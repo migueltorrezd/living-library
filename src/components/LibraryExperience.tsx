@@ -121,6 +121,10 @@ function BookStage({index}:{index:number}){
 export default function LibraryExperience({children,locale='en'}:{children:ReactNode;locale?:LibraryLocale}){
  return <LibraryLocaleProvider locale={locale}><LibraryContent>{children}</LibraryContent></LibraryLocaleProvider>;
 }
+/** Projected thickness of a shelved book (decimetres): spine depth plus the sliver of cover the shelf tilt reveals. */
+const SHELF_TILT=.08;
+function shelfExtent(slug:string){const spec=getModelSpec(slug);return +(spec.depth*Math.cos(SHELF_TILT)+spec.width*Math.sin(SHELF_TILT)).toFixed(4);}
+
 function LibraryContent({children}:{children:ReactNode}){
  const t=useLibraryText();
  const locale=useLibraryLocale();
@@ -183,7 +187,13 @@ function LibraryContent({children}:{children:ReactNode}){
  useLayoutEffect(()=>{if(!libraryRoute||(!entering&&!expanded&&!loading))return;const overflow=document.body.style.overflow;document.body.style.overflow='hidden';return()=>{document.body.style.overflow=overflow;};},[entering,expanded,loading,libraryRoute]);
  useEffect(()=>{
   if(loading)return;
-  if(phase==='reading')document.getElementById(`title-${BOOKS[useLibrary.getState().active].slug}`)?.focus({preventScroll:true});
+  if(phase==='reading'){
+   const slug=BOOKS[useLibrary.getState().active].slug;
+   // Fonts and images above can settle after the arrival anchor; scrolling was locked until now.
+   const story=document.getElementById(`story-${slug}`);
+   if(story&&Math.abs(story.getBoundingClientRect().top)>1)story.scrollIntoView({behavior:'instant',block:'start'});
+   document.getElementById(`title-${slug}`)?.focus({preventScroll:true});
+  }
   if(phase==='shelf'&&document.activeElement?.closest('.living-stories'))shelf.current?.querySelector<HTMLAnchorElement>(`[data-library-row="${useLibrary.getState().active}"] a`)?.focus({preventScroll:true});
  },[phase,loading]);
  useEffect(()=>{
@@ -221,7 +231,7 @@ function LibraryContent({children}:{children:ReactNode}){
   <main inert={blocked}>
    <div ref={shelf} className="living-shelf" hidden={!shelfMode} inert={expanded||phase==='leaving'}>
     <h1 className="sr-only">{t(LIBRARY.name)}</h1>
-    <ul className="booklist">{BOOKS.map((b,i)=><li key={b.slug} data-library-row={i} data-ready={ready.includes(i)} className="booklist__row">
+    <ul className="booklist">{BOOKS.map((b,i)=><li key={b.slug} data-library-row={i} data-ready={ready.includes(i)} className="booklist__row" style={{'--book-extent':shelfExtent(b.slug)} as CSSProperties}>
      <Link prefetch={false} className="book" href={`/books/${b.slug}`} aria-busy={phase==='preparing'&&active===i} onMouseEnter={()=>{useShelf.getState().setHovered(i);useLibrary.getState().request(i);}} onMouseLeave={()=>useShelf.getState().setHovered(null)} onFocus={()=>{useShelf.getState().setHovered(i);useLibrary.getState().request(i);}} onBlur={()=>useShelf.getState().setHovered(null)} onClick={e=>{if(normalClick(e)){e.preventDefault();pickUp(i);}}}>
       <span className="book__label"><span className="book__title">{b.title}</span><span className="book__author">{b.author}</span></span>
       {webgl&&!ready.includes(i)&&!failed.includes(i)&&<span className="book__loading">{t("Preparing book…")}</span>}

@@ -1,0 +1,4 @@
+{
+  "prompt": "Technical material bake by scripts/bake_print_finishes.py from registered publisher cover https://media.groupe.gallimard.fr/couvHD/A65311.jpg. Artwork pixels are unchanged. Custom print_normal surface data. Substrate normal source: https://ambientcg.com/view?id=Paper001 (CC0). No Stripe texture or shader is included. Relief clean-up by scripts/blender/clean_relief.py: median filter (5 px) on the tilt removes the tiled paper noise and its tile seams, keeping the registered relief; the metallic foil mask is debossed 0.15 mm with a 0.25 mm rounded wall; stock grain comes from the seamless Blender substrate layer. Runtime encoding by scripts/optimize_web_models.mjs. Original-resolution pixels preserved; smaller of original encoding and lossless WebP.",
+  "sha256": "4fd3fc4699791d43be3a10aa5a7d5305c55bce241d09df05ada0595249585821"
+}

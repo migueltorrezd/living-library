@@ -6,6 +6,7 @@ import * as THREE from "three";
 import manifests from "@/lib/model-manifest.json";
 import {assetUrl} from '@/lib/library-config';
 import {configureBookLoader} from '@/lib/book-loader';
+import {applyBookSurface} from '@/lib/book-surface';
 
 // ImageBitmapLoader otherwise downloads and decodes shared images per book.
 THREE.Cache.enabled = true;
@@ -46,13 +47,14 @@ export function useBookModel(slug: string,variant:'detail'|'shelf'|'library'='de
           o.userData.ownedGeometry = true;
         }
         // Sub-millimetre leaf edges are below the shadow map's sampling scale.
-        o.castShadow = !/^(Individually[_ ]cut[_ ]paper|Compressed[_ ]paper|Continuous[_ ]compressed[_ ]cut|Interior|Spine_(title|author)|Collection_mark|Back_(title|description|collection|edition|ISBN))/.test(o.name);
+        o.userData.castsShadow = o.castShadow = !/^(Individually[_ ]cut[_ ]paper|Compressed[_ ]paper|Continuous[_ ]compressed[_ ]cut|Interior|Spine_(title|author)|Collection_mark|Back_(title|description|collection|edition|ISBN))/.test(o.name);
         o.receiveShadow = true;
         const materials = Array.isArray(o.material) ? o.material : [o.material];
         o.material = materials.map((m) => {
           const material = m.clone() as THREE.MeshStandardMaterial;
           for(const value of Object.values(material))if(value instanceof THREE.Texture)shareTextureSource(value);
           material.envMapIntensity = 1;
+          applyBookSurface(material, slug, Boolean(o.geometry.attributes._occlusion));
           return material;
         });
         if (o.material.length === 1) o.material = o.material[0];

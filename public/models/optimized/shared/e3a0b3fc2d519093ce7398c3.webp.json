@@ -1,0 +1,4 @@
+{
+  "prompt": "Technical material bake by scripts/bake_print_finishes.py from registered publisher cover https://images-us.bookshop.org/ingram/9781544550756.jpg?v=b32120b1b6cf7c497713ced6f7e908eb. Artwork pixels are unchanged. Custom print_orm surface data. Substrate normal source: https://ambientcg.com/view?id=Paper001 (CC0). No Stripe texture or shader is included. Runtime encoding by scripts/optimize_web_models.mjs. Original-resolution pixels preserved; smaller of original encoding and lossless WebP.",
+  "sha256": "e3a0b3fc2d519093ce7398c3e81e771242d272130e9824bc3221737d902166c5"
+}

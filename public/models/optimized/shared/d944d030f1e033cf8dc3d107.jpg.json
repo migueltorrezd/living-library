@@ -1,0 +1,4 @@
+{
+  "prompt": "Publisher or photographed edition artwork. Source: https://m.media-amazon.com/images/I/61ACOfDarYL._SL1500_.jpg. Original: assets/images/book-covers/library-expansion-20260908/production/cien-vintage-spine.jpg. Original SHA256: d944d030f1e033cf8dc3d1075be58b6382b5367c9e488645627371dc09624ffa. UV placement is defined in scripts/refine_edition_print.py; Blender may transcode image format. Runtime encoding by scripts/optimize_web_models.mjs. Original-resolution pixels preserved; smaller of original encoding and lossless WebP.",
+  "sha256": "d944d030f1e033cf8dc3d1075be58b6382b5367c9e488645627371dc09624ffa"
+}

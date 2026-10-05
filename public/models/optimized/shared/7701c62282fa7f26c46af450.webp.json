@@ -1,0 +1,4 @@
+{
+  "prompt": "Authored technical compressed-paper compressed-paper-color map from scripts/refine_paper_surfaces.py. 256 sheet layers; repeatable 60 mm cut length. Directional sheet structure with micron-scale relief. No photographic cover, Stripe asset or shader is included. Runtime encoding by scripts/optimize_web_models.mjs. Shelf texture mip capped at 1024px, encoded losslessly. Full-resolution inspection source retained.",
+  "sha256": "7701c62282fa7f26c46af450d4bab96a0acd06a4805d7680e4b636fd895a186f"
+}

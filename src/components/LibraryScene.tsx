@@ -100,6 +100,9 @@ function LibraryBook({index}:{index:number}){
  useFrame(({size},delta)=>{
   const g=group.current;if(!g||!compiled.current)return;
   const state=useLibrary.getState(),phase=state.phase,selected=state.active===index;
+  // Only the active volume casts. Neighbours parked just outside the viewport during a
+  // pickup or return otherwise threw a sweeping, hard-edged shadow across its cover.
+  if(model.userData.casting!==selected){model.userData.casting=selected;model.traverse(o=>{if(o instanceof THREE.Mesh)o.castShadow=selected&&o.userData.castsShadow===true;});}
   const dt=Math.min(delta,.05),h=size.height,w=size.width,upp=2*camera.position.z*Math.tan(THREE.MathUtils.degToRad((camera as THREE.PerspectiveCamera).fov/2))/h;
   const frustum=upp*w/(2*camera.position.z)*.94;
   const row=libraryMotion.shelfRows[index];
@@ -114,7 +117,7 @@ function LibraryBook({index}:{index:number}){
    if(!row){g.visible=false;return;}
    motion.target.set(shelfX,(h/2-(row.top+row.height/2-window.scrollY))*upp,0);
    targetScale=Math.min(w*(w<700?.86:.49),1100)*upp/2.35;
-   motion.q.setFromAxisAngle(axis,useShelf.getState().hovered===index?.18:.08).multiply(shelfRotation);
+   motion.q.setFromAxisAngle(axis,useShelf.getState().hovered===index?.13:.08).multiply(shelfRotation);
    targetScale=fitBookWidth(targetScale,motion.target,motion.q,spec,camera.position.z,shelfFrustum,motion.corner,shelfCenter);
    visible=Math.abs(motion.target.y)<h*upp*.72;
   }else{
@@ -133,7 +136,10 @@ function LibraryBook({index}:{index:number}){
    motion.target.set((area.left+area.width/2-w/2)*upp+spec.width*.46*motion.spread*targetScale,(h/2-area.top-(area.height-clearance)/2)*upp+ribbon*.5*targetScale,0);
    if(view.spin&&!gesture.dragging&&!reduce&&active)gesture.yaw+=dt*.13;
    const pose=spread?[.22,-.10,-.025]:view.pose==='cover'?[0,0,0]:view.pose==='back'?[0,Math.PI,0]:view.pose==='spine'?[.03,1.42,0]:[w<700?-.32:-.40,.38,w<700?.10:.12];
-   motion.rotation.set(pose[0]+gesture.pitch,pose[1]+gesture.yaw,pose[2]);motion.q.setFromEuler(motion.rotation);
+   // At rest the editorial book leans a few degrees toward the cursor so the studio light moves across its finishes.
+   const lean=phase==='reading'&&selected&&!expanded&&!spread&&!gesture.dragging&&!reduce&&libraryMotion.cursor.active;
+   const leanX=lean?libraryMotion.cursor.x*.14:0,leanY=lean?libraryMotion.cursor.y*.09:0;
+   motion.rotation.set(pose[0]+gesture.pitch+leanY,pose[1]+gesture.yaw+leanX,pose[2]);motion.q.setFromEuler(motion.rotation);
    if(reading){
     // Frame the printed surface, preserving the same book, binding and live leaf.
     const left=state.readSide==='left';
@@ -160,7 +166,7 @@ function LibraryBook({index}:{index:number}){
    if(phase==='entering'&&row){
     // A keyboard/browser scroll can reach a row before the next canvas frame.
     motion.from.set(shelfX,(h/2-(row.top+row.height/2-state.shelfScroll))*upp,0);
-    motion.fromQ.setFromAxisAngle(axis,useShelf.getState().hovered===index?.18:.08).multiply(shelfRotation);
+    motion.fromQ.setFromAxisAngle(axis,useShelf.getState().hovered===index?.13:.08).multiply(shelfRotation);
     motion.fromScale=Math.min(w*(w<700?.86:.49),1100)*upp/2.35;
     motion.fromScale=fitBookWidth(motion.fromScale,motion.from,motion.fromQ,spec,camera.position.z,shelfFrustum,motion.corner,shelfCenter);
     motion.fromVisible=selected||Math.abs(motion.from.y)<h*upp*.72;
@@ -228,6 +234,13 @@ function LibraryBook({index}:{index:number}){
 
 function Books(){
  const reduce=useReducedMotion();
+ useEffect(()=>{
+  const fine=window.matchMedia('(hover:hover) and (pointer:fine)');
+  const move=(e:PointerEvent)=>{if(e.pointerType!=='mouse'&&e.pointerType!=='pen')return;const c=libraryMotion.cursor;c.x=Math.max(-1,Math.min(1,e.clientX/innerWidth*2-1));c.y=Math.max(-1,Math.min(1,e.clientY/innerHeight*2-1));c.active=fine.matches;};
+  const leave=()=>{const c=libraryMotion.cursor;c.x=c.y=0;};
+  window.addEventListener('pointermove',move,{passive:true});document.documentElement.addEventListener('pointerleave',leave);
+  return()=>{window.removeEventListener('pointermove',move);document.documentElement.removeEventListener('pointerleave',leave);};
+ },[]);
  const requested=useLibrary(s=>s.requested),ready=useLibrary(s=>s.ready),failed=useLibrary(s=>s.failed),retries=useLibrary(s=>s.retries),active=useLibrary(s=>s.active);
  const shelfMode=useLibrary(s=>s.phase==='shelf'||s.phase==='preparing'||s.phase==='leaving');
  const pending=[active,...requested.filter(i=>i!==active)].filter(i=>requested.includes(i)&&!ready.includes(i)&&!failed.includes(i));
@@ -253,6 +266,8 @@ function Books(){
 export default function LibraryScene(){
  // A tight depth range resolves the two faces of a 0.1 mm title sheet.
  return <Canvas className="library-canvas" shadows dpr={[1,2]} camera={{position:[0,0,18],fov:20,near:1,far:60}} gl={{antialias:true,alpha:true,powerPreference:'high-performance'}} onCreated={({scene,gl,camera})=>{
+  // Khronos PBR Neutral keeps printed cover colours: ACES shifted saturated reds and oranges.
+  gl.toneMapping=THREE.NeutralToneMapping;
   if(process.env.NODE_ENV==='development')Object.assign(window,{__libraryReview:{scene,gl,camera,store:useLibrary,motion:libraryMotion}});
  }}><Books/></Canvas>;
 }

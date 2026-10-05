@@ -1,0 +1,4 @@
+{
+  "prompt": "Publisher cover artwork. Same artwork at higher resolution from https://m.media-amazon.com/images/I/5184zgbMBBL.jpg; registered by ECC affine to the previous 814x1200 frame (mean abs residual 0.89/255), resampled once into that frame at 923x1361. No enlargement beyond source pixels. Edition source: https://www.elonmuskbook.org/. Artwork rights remain with the publisher. Runtime encoding by scripts/optimize_web_models.mjs. Original-resolution pixels preserved; smaller of original encoding and lossless WebP.",
+  "sha256": "221f40b55652ae193e8da3f835371a4d9367958626f7bdf7e8c20f3397a7b2db"
+}

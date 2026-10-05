@@ -795,3 +795,9 @@ html[data-book-entering=true] .inspection {animation:book-arrive 420ms cubic-bez
 .living-header:has(.library-language) {gap:16px;}
 .living-header:has(.library-language) .living-brand {margin-right:auto;}
 @media(max-width:699px){.living-header:has(.library-language){flex-wrap:wrap;gap:4px 12px}.library-language{max-width:110px}.living-header:has(.library-language) .living-brand small{display:none}}
+
+/* Desktop shelf as a real stack: each row is its book's projected thickness plus a small gap,
+   at the scene's shelf scale (min(49vw,1100px) spans 2.35 dm). Phones keep fixed rows for their titles. */
+@media(min-width:701px){
+ .living-shelf .booklist__row {height:calc(var(--book-extent,.6) * min(49vw,1100px) / 2.35 + clamp(22px,3.2vh,34px));}
+}

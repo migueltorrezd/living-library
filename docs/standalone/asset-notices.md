@@ -15,3 +15,5 @@ Source pixels, approximated backs, edition discrepancies and reconstructed bindi
 ## Substrate sources
 
 Packed book materials include book-pattern maps from [Poly Haven](https://polyhaven.com/a/book_pattern) under [CC0](https://polyhaven.com/license), and Paper001 maps from [ambientCG](https://ambientcg.com/view?id=Paper001) under [CC0](https://docs.ambientcg.com/license/). Generated page-edge and print-finish maps are technical material reconstructions. Publisher printing remains separately owned. The MIT license at the repository root applies only to the original code, scripts and documentation, with the exclusions stated there.
+
+The substrate relief tiles in `public/models/substrates/` were authored procedurally in Blender for this project (periodic noise and a plain-weave construction, no third-party texture). They are covered by the repository license.

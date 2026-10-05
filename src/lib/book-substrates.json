@@ -1,0 +1,46 @@
+{
+  "occlusion": {
+    "power": 2.0,
+    "direct": 0.55
+  },
+  "families": {
+    "satin-paper": {
+      "map": "satin-paper-normal.webp",
+      "repeat": 6
+    },
+    "uncoated": {
+      "map": "uncoated-normal.webp",
+      "repeat": 5
+    },
+    "soft-touch": {
+      "map": "soft-touch-normal.webp",
+      "repeat": 6
+    },
+    "cloth": {
+      "map": "cloth-normal.webp",
+      "repeat": 4.2
+    }
+  },
+  "books": {
+    "cien-anos-de-soledad": {
+      "family": "cloth",
+      "strength": 0.9
+    },
+    "le-petit-prince": {
+      "family": "satin-paper",
+      "strength": 0.48
+    },
+    "how-to-fail": {
+      "family": "satin-paper",
+      "strength": 0.56
+    },
+    "the-book-of-elon": {
+      "family": "satin-paper",
+      "strength": 0.48
+    },
+    "naval": {
+      "family": "uncoated",
+      "strength": 0.8
+    }
+  }
+}

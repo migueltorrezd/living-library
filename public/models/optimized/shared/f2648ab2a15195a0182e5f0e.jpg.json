@@ -1,0 +1,4 @@
+{
+  "prompt": "Publisher or photographed edition artwork. Source: https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9798893310948/the-almanack-of-naval-ravikant-9798893310948_xlg-back.jpg. Original: assets/images/book-covers/library-expansion-20260908/production/naval-primary-back.jpg. Original SHA256: f2648ab2a15195a0182e5f0e440d911e31f70b9692296ad2b755f085a065ce6c. UV placement is defined in scripts/refine_edition_print.py; Blender may transcode image format. Runtime encoding by scripts/optimize_web_models.mjs. Original-resolution pixels preserved; smaller of original encoding and lossless WebP.",
+  "sha256": "f2648ab2a15195a0182e5f0e440d911e31f70b9692296ad2b755f085a065ce6c"
+}
