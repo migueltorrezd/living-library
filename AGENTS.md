@@ -6,7 +6,7 @@ Read `docs/authoring/agent-workflow.md` before authoring books and `docs/authori
 
 - Inspect current files and Git changes. Preserve other work and existing books.
 - Run `npm ci`, `npm run doctor`, `npm run verify:assets`, then `npm run dev`.
-- Use Node.js 22 or 24 and pinned dependencies. No external AI service is required for the app.
+- Use Node.js 22, 24 or 26 and pinned dependencies. No external AI service is required for the app.
 - Work in `.tmp/<task>/`. Keep final models, source records and relevant verification evidence. Do not commit caches, credentials or workstation paths.
 
 ## Blender and research

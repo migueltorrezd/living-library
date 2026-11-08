@@ -10,7 +10,7 @@ The complete Next.js app, **13 ready-to-use books**, optimized web assets, **13 
 
 ## Run locally
 
-Install Node.js 22 or 24, then:
+Install Node.js 22, 24 or 26, then:
 
 ```sh
 git clone https://github.com/migueltorrezd/living-library.git

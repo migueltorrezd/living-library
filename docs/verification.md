@@ -5,6 +5,7 @@ Checks recorded on 10 September 2026 for this standalone public package.
 | Area | Evidence |
 | --- | --- |
 | Local installation | Clean `npm ci` on Node.js 24.14.0; dependency audit reported no known vulnerabilities at install time |
+| Node 26 | `npm run verify:assets` and `npm run build` passed on Node.js 26.13.0 (2026-11-07); `.nvmrc` moved to 26 |
 | Application | Production build generated the shelf and all 13 book routes; ESLint completed without warnings |
 | Asset graph | 13 selected books, 39 runtime variants, referenced resources, source files and package hashes checked by `npm run verify:assets` |
 | Blender portability | All 13 .blend files opened separately in Blender 5.2.1 LTS; one scene/book, packed images, no embedded scripts or workstation references |
